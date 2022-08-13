@@ -1,0 +1,2339 @@
+Performance - "slate" initial guess
+-----------------------------------
+average guesses:  3.68
+hardest word:  joker
+success rate:  99.35%
+failure rate:  0.64%
+three or less:  43.28%
+only 2 guesses:  146/2315
+
+
+Distribution (Guesses | Frequency):
+-----------------------------------
+1      1
+2    146
+3    855
+4    972
+5    278
+6     48
+7     12 (failed)
+8      3 (failed)
+
+
+Results:
+-----------------------
+slate -> crack -> aback
+slate -> chase -> abase
+slate -> crate -> abate
+slate -> racer -> annex -> abbey
+slate -> taunt -> abort -> abbot
+slate -> marry -> briar -> abhor
+slate -> mauve -> abode -> abide
+slate -> legal -> baler -> abled
+slate -> mauve -> abode
+slate -> taunt -> abort
+slate -> taunt -> about
+slate -> mauve -> above
+slate -> pause -> abuse
+slate -> gassy -> abyss
+slate -> marry -> acorn
+slate -> marry -> apron -> acrid
+slate -> taunt -> actor
+slate -> acute
+slate -> grave -> adage
+slate -> trait -> adapt
+slate -> cater -> wheat -> adept
+slate -> marry -> woman -> admin
+slate -> taunt -> abort -> admit
+slate -> mauve -> abode -> adobe
+slate -> taunt -> abort -> adopt
+slate -> mauve -> abode -> adore
+slate -> marry -> acorn -> adorn
+slate -> fatal -> adult
+slate -> marry -> aping -> affix
+slate -> mauve -> abode -> afire
+slate -> taunt -> abort -> adopt -> afoot
+slate -> canal -> afoul
+slate -> cater -> after
+slate -> crack -> again
+slate -> grave -> adage -> agape
+slate -> crate -> abate -> agate
+slate -> cater -> wheat -> adept -> agent
+slate -> cable -> ample -> angle -> agile
+slate -> marry -> aping -> aging
+slate -> canal -> villa -> aglow
+slate -> marry -> agony
+slate -> marry -> acorn -> agora
+slate -> mauve -> abode -> afire -> agree
+slate -> racer -> knead -> ahead
+slate -> racer -> aider
+slate -> false -> aisle
+slate -> clank -> flail -> llama -> alarm
+slate -> aloof -> alibi -> album
+slate -> bleat -> alert
+slate -> alike -> algae
+slate -> aloof -> alibi
+slate -> clean -> alien
+slate -> aloof -> alibi -> align
+slate -> alike
+slate -> alike -> alive
+slate -> aloof -> alibi -> allay
+slate -> clean -> alley
+slate -> bloat -> allot
+slate -> aloof -> allow
+slate -> aloof -> allow -> alloy
+slate -> bloat -> aloft
+slate -> alike -> algae -> alone
+slate -> aloof -> along
+slate -> aloof
+slate -> aloof -> along -> aloud
+slate -> aloof -> alibi -> allay -> alpha
+slate -> bloat -> altar
+slate -> bleat -> alter
+slate -> crash -> amass
+slate -> grave -> awake -> amaze
+slate -> racer -> aider -> amber
+slate -> cable -> amble
+slate -> racer -> knead -> amend
+slate -> gassy -> amiss
+slate -> catty -> amity
+slate -> marry -> woman -> among
+slate -> cable -> ample
+slate -> canal -> villa -> amply
+slate -> pause -> abuse -> amuse
+slate -> legal -> angel
+slate -> racer -> aider -> amber -> anger
+slate -> cable -> ample -> angle
+slate -> marry -> angry
+slate -> angst
+slate -> mauve -> anime
+slate -> cable -> ample -> angle -> ankle
+slate -> racer -> annex
+slate -> marry -> agony -> annoy
+slate -> canal -> annul
+slate -> mauve -> abode -> anode
+slate -> taunt -> antic
+slate -> canal -> anvil
+slate -> catty -> junta -> aorta
+slate -> trait -> apart
+slate -> marry -> aping -> aphid
+slate -> marry -> aping
+slate -> racer -> annex -> apnea
+slate -> cable -> ample -> apple
+slate -> canal -> villa -> amply -> apply
+slate -> marry -> apron
+slate -> fatal -> aptly
+slate -> marry -> briar -> arbor
+slate -> marry -> briar -> ardor
+slate -> racer -> break -> arena
+slate -> mauve -> argue
+slate -> pause -> arise
+slate -> marry -> armor
+slate -> marry -> armor -> aroma
+slate -> pause -> arise -> arose
+slate -> marry -> array
+slate -> marry -> apron -> arrow
+slate -> gassy -> arson
+slate -> angst -> artsy
+slate -> angst -> ascot
+slate -> ashen
+slate -> pause -> aside
+slate -> ashen -> askew
+slate -> gassy -> assay
+slate -> asset
+slate -> fatal -> atoll
+slate -> atone
+slate -> taunt -> actor -> attic
+slate -> marry -> aping -> affix -> audio
+slate -> taunt -> about -> audit
+slate -> marry -> briar -> augur
+slate -> catty -> amity -> aunty
+slate -> crawl -> avail
+slate -> cater -> treat -> avert
+slate -> marry -> aping -> avian
+slate -> marry -> aping -> affix -> audio -> avoid
+slate -> trait -> await
+slate -> grave -> awake
+slate -> crack -> award
+slate -> grave -> aware
+slate -> crash -> awash
+slate -> canal -> afoul -> awful
+slate -> mauve -> abode -> awoke
+slate -> canal -> moral -> axial
+slate -> marry -> woman -> axiom
+slate -> marry -> aping -> avian -> axion
+slate -> mauve -> azure
+slate -> marry -> canon -> bacon
+slate -> mauve -> barge -> badge
+slate -> canal -> dally -> badly
+slate -> legal -> angel -> bagel
+slate -> marry -> candy -> baggy
+slate -> racer -> gayer -> baker
+slate -> legal -> baler
+slate -> canal -> dally -> balmy
+slate -> canal -> banal
+slate -> marry -> canon -> banjo
+slate -> mauve -> barge
+slate -> marry -> baron
+slate -> basal
+slate -> gassy -> basin -> basic
+slate -> basal -> basil
+slate -> gassy -> basin
+slate -> gassy -> basin -> basic -> basis
+slate -> baste
+slate -> taunt -> patch -> batch
+slate -> atone -> bathe
+slate -> taunt -> baton
+slate -> catty -> batty
+slate -> marry -> candy -> daddy -> bawdy
+slate -> marry -> bayou
+slate -> beady -> beach
+slate -> beady
+slate -> beady -> beard
+slate -> beast
+slate -> fever -> beech
+slate -> fever -> beefy
+slate -> tenet -> debit -> befit
+slate -> racer -> knead -> began
+slate -> cater -> wheat -> begat
+slate -> tenet -> beget
+slate -> fever -> beech -> begin
+slate -> fever -> beech -> begin -> begun
+slate -> fever -> beech -> begin -> being
+slate -> level -> belly -> belch
+slate -> belle -> belie
+slate -> belle
+slate -> level -> belly
+slate -> level -> belly -> belch -> below
+slate -> fever -> beech -> bench
+slate -> tenet -> beget -> beret
+slate -> fever -> merry -> berry
+slate -> petty -> teeth -> berth
+slate -> beset
+slate -> hotel -> betel
+slate -> level -> bevel
+slate -> level -> rebel -> bezel
+slate -> belle -> bible
+slate -> fever -> honey -> bicep
+slate -> crony -> dumpy -> biddy
+slate -> tight -> bigot
+slate -> belle -> bilge
+slate -> golly -> billy
+slate -> price -> binge
+slate -> crony -> bingo
+slate -> price -> binge -> biome
+slate -> crony -> birch
+slate -> birth
+slate -> missy -> bison
+slate -> birth -> bitty
+slate -> clank -> black
+slate -> blare -> blade
+slate -> blare -> blade -> blame
+slate -> clank -> bland
+slate -> clank -> blank
+slate -> blare
+slate -> blast
+slate -> blare -> blade -> blame -> blaze
+slate -> clean -> bleak
+slate -> bleat
+slate -> bleed
+slate -> bleed -> bleep
+slate -> bleed -> blend
+slate -> bless
+slate -> flunk -> bloom -> blimp
+slate -> flunk -> blind
+slate -> flunk -> blink
+slate -> blush -> bliss
+slate -> blitz
+slate -> bloat
+slate -> flunk -> clock -> block
+slate -> glove -> bloke
+slate -> flunk -> blind -> blond
+slate -> flunk -> bloom -> blood
+slate -> flunk -> bloom
+slate -> flunk -> blown
+slate -> bleed -> bluer
+slate -> flunk -> bluff
+slate -> flint -> blunt
+slate -> flunk -> plumb -> blurb
+slate -> flint -> blurt
+slate -> blush
+slate -> crack -> award -> board
+slate -> toast -> boast
+slate -> crony -> dowdy -> bobby
+slate -> fever -> honey -> boney
+slate -> crony -> bingo -> bongo
+slate -> missy -> bonus
+slate -> crony -> goody -> boozy -> booby
+slate -> foist -> boost
+slate -> birth -> booth
+slate -> birth -> booty
+slate -> price -> fudge -> booze
+slate -> crony -> goody -> boozy
+slate -> marry -> apron -> borax
+slate -> price -> gorge -> borne
+slate -> missy -> bosom
+slate -> missy -> fussy -> bossy
+slate -> tight -> butch -> botch
+slate -> crony -> buxom -> bough
+slate -> belle -> bible -> boule
+slate -> crony -> bound
+slate -> level -> bowel
+slate -> fever -> cider -> power -> boxer
+slate -> grave -> brake -> brace
+slate -> crack -> brain -> braid
+slate -> crack -> brain
+slate -> grave -> brake
+slate -> crack -> brain -> brand
+slate -> crash -> brash
+slate -> crash -> grass -> brass
+slate -> grave -> brave
+slate -> crack -> brain -> bravo
+slate -> crawl -> brawl
+slate -> crack -> brain -> brawn
+slate -> racer -> break -> bread
+slate -> racer -> break
+slate -> fever -> creed -> breed
+slate -> marry -> briar
+slate -> price -> brine -> bribe
+slate -> crony -> brick
+slate -> price -> brine -> bribe -> bride
+slate -> fever -> brief
+slate -> price -> brine
+slate -> crony -> bring
+slate -> crony -> bring -> brink
+slate -> crony -> briny
+slate -> missy -> brisk
+slate -> marry -> briar -> broad
+slate -> golly -> broil
+slate -> price -> drove -> broke
+slate -> crony -> brood
+slate -> crony -> brood -> brook
+slate -> crony -> brood -> brook -> broom
+slate -> birth -> broth
+slate -> crony -> grown -> brown
+slate -> tight -> count -> brunt
+slate -> missy -> cross -> brush
+slate -> write -> brute
+slate -> crony -> dumpy -> buddy
+slate -> price -> fudge -> budge
+slate -> crony -> dumpy -> buggy
+slate -> belle -> bible -> boule -> bugle
+slate -> golly -> chill -> build
+slate -> built
+slate -> belle -> bilge -> bulge
+slate -> golly -> bulky
+slate -> golly -> billy -> bully
+slate -> crony -> punch -> bunch
+slate -> crony -> bunny
+slate -> golly -> dryly -> burly
+slate -> tight -> count -> burnt
+slate -> foist -> trust -> burst
+slate -> riser -> bused
+slate -> missy -> bushy
+slate -> tight -> butch
+slate -> write -> butte
+slate -> crony -> buxom
+slate -> fever -> cider -> power -> buyer
+slate -> canal -> molar -> bylaw
+slate -> canal -> cabal
+slate -> marry -> candy -> cabby
+slate -> marry -> canon -> cabin
+slate -> cable
+slate -> marry -> canon -> cacao
+slate -> mauve -> barge -> canoe -> cache
+slate -> catty -> cacti
+slate -> marry -> candy -> caddy
+slate -> cater -> cadet
+slate -> racer -> cagey
+slate -> marry -> cairn
+slate -> legal -> camel
+slate -> racer -> cagey -> cameo
+slate -> canal
+slate -> marry -> candy
+slate -> marry -> candy -> canny
+slate -> mauve -> barge -> canoe
+slate -> marry -> canon
+slate -> racer -> caper
+slate -> taunt -> caput
+slate -> taunt -> carat
+slate -> marry -> baron -> cargo
+slate -> canal -> carol
+slate -> marry -> carry
+slate -> mauve -> naive -> carve
+slate -> baste -> caste
+slate -> taunt -> patch -> batch -> catch
+slate -> cater
+slate -> catty
+slate -> canal -> caulk
+slate -> pause -> cause
+slate -> canal -> carol -> cavil
+slate -> chase -> cease
+slate -> racer -> cedar
+slate -> level -> belly -> cello
+slate -> grave -> awake -> chafe
+slate -> crack -> chaff
+slate -> crack -> chaff -> chain
+slate -> crack -> chard -> chair
+slate -> crawl -> chalk
+slate -> crack -> chaff -> chain -> champ
+slate -> trait -> adapt -> chant
+slate -> crash -> chaos
+slate -> crack -> chard
+slate -> crack -> chard -> charm
+slate -> trait -> apart -> chart
+slate -> chase
+slate -> crash -> chasm
+slate -> racer -> cheap
+slate -> cater -> cheat
+slate -> fever -> ebony -> check
+slate -> fever -> honey -> cheek
+slate -> fever -> cider -> corer -> cheer
+slate -> riser -> chess
+slate -> beset -> crest -> chest
+slate -> crony -> chuck -> chick
+slate -> price -> chide
+slate -> fever -> chief
+slate -> golly -> chill -> child
+slate -> golly -> chill -> child -> chili
+slate -> golly -> chill
+slate -> price -> chide -> chime
+slate -> marry -> aping -> china
+slate -> crony -> chirp
+slate -> crony -> chock
+slate -> crony -> choir
+slate -> price -> choke
+slate -> crony -> choir -> chord
+slate -> price -> chore
+slate -> noose -> chose
+slate -> crony -> chuck
+slate -> crony -> chuck -> chump
+slate -> crony -> chunk
+slate -> crony -> churn
+slate -> write -> butte -> chute
+slate -> fever -> cider
+slate -> marry -> briar -> cigar
+slate -> crony -> cinch
+slate -> marry -> apron -> circa
+slate -> crony -> chuck -> civic
+slate -> golly -> lurid -> civil
+slate -> clank -> clack
+slate -> clank -> claim
+slate -> clank -> claim -> clamp
+slate -> clank -> clang
+slate -> clank
+slate -> clash
+slate -> clash -> clasp
+slate -> clash -> clasp -> class
+slate -> clean
+slate -> clean -> clear
+slate -> bleat -> cleat
+slate -> cleft
+slate -> bleed -> clerk
+slate -> flunk -> clock -> click
+slate -> flunk -> cliff
+slate -> flunk -> bloom -> climb
+slate -> flunk -> blind -> cling
+slate -> flunk -> blink -> clink
+slate -> aloof -> cloak
+slate -> flunk -> clock
+slate -> glove -> bloke -> clone
+slate -> close
+slate -> blitz -> cloth
+slate -> flunk -> cloud
+slate -> flint -> blurt -> clout
+slate -> glove -> clove
+slate -> flunk -> blown -> clown
+slate -> flunk -> cluck
+slate -> bleed -> clued
+slate -> flunk -> plumb -> clump
+slate -> flunk -> clung
+slate -> crack -> coach
+slate -> toast -> boast -> coast
+slate -> marry -> acorn -> cobra
+slate -> marry -> aping -> cocoa
+slate -> golly -> colon
+slate -> golly -> colon -> color
+slate -> tenet -> covet -> comet
+slate -> crony -> comfy
+slate -> crony -> couch -> comic
+slate -> marry -> woman -> comma
+slate -> crony -> conch
+slate -> crony -> conch -> condo
+slate -> crony -> conch -> condo -> conic
+slate -> noose -> horse -> poise -> copse
+slate -> canal -> coral
+slate -> fever -> cider -> corer
+slate -> crony -> corny
+slate -> crony -> couch
+slate -> crony -> couch -> cough
+slate -> golly -> would -> could
+slate -> tight -> count
+slate -> price -> coupe
+slate -> tight -> count -> court
+slate -> fever -> coven
+slate -> fever -> rover -> cover
+slate -> tenet -> covet
+slate -> fever -> coven -> covey
+slate -> fever -> cider -> corer -> cower
+slate -> golly -> coyly
+slate -> crack
+slate -> trait -> graft -> craft
+slate -> crack -> cramp
+slate -> grave -> brake -> crane
+slate -> crack -> crank
+slate -> crash
+slate -> crash -> crass
+slate -> crate
+slate -> grave -> brave -> crave
+slate -> crawl
+slate -> grave -> brake -> crane -> craze
+slate -> crack -> cramp -> crazy
+slate -> racer -> creak
+slate -> racer -> creak -> cream
+slate -> fever -> credo
+slate -> fever -> creed
+slate -> fever -> creed -> creek
+slate -> fever -> creed -> creek -> creep
+slate -> price -> creme
+slate -> price -> crepe
+slate -> tenet -> erect -> crept
+slate -> riser -> cress
+slate -> beset -> crest
+slate -> crony -> crimp -> crick
+slate -> fever -> creed -> cried
+slate -> fever -> cider -> crier
+slate -> price -> crime
+slate -> crony -> crimp
+slate -> missy -> brisk -> crisp
+slate -> marry -> briar -> groan -> croak
+slate -> crony -> crock
+slate -> price -> creme -> crone
+slate -> crony
+slate -> crony -> crock -> crook
+slate -> missy -> cross
+slate -> crony -> crock -> croup
+slate -> crony -> crock -> croup -> crowd
+slate -> crony -> crown
+slate -> price -> creme -> crone -> crude
+slate -> level -> bowel -> expel -> cruel
+slate -> crony -> crimp -> crumb
+slate -> crony -> crimp -> crump
+slate -> missy -> cross -> crush
+slate -> foist -> trust -> crust
+slate -> tight -> count -> crypt
+slate -> crony -> chuck -> cubic
+slate -> crony -> cinch -> cumin
+slate -> crony -> curio
+slate -> golly -> dryly -> burly -> curly
+slate -> crony -> curry
+slate -> noose -> curse
+slate -> price -> chore -> curve
+slate -> crony -> curry -> curvy
+slate -> trice -> cutie
+slate -> fever -> cider -> corer -> cheer -> cyber
+slate -> belle -> while -> cycle
+slate -> crony -> cynic
+slate -> marry -> candy -> daddy
+slate -> canal -> dally -> daily
+slate -> marry -> dairy
+slate -> gassy -> daisy
+slate -> canal -> dally
+slate -> mauve -> barge -> canoe -> dance
+slate -> marry -> candy -> dandy
+slate -> taunt -> datum
+slate -> taunt -> daunt
+slate -> dealt
+slate -> death
+slate -> racer -> debar
+slate -> tenet -> debit
+slate -> fever -> beech -> debug
+slate -> tenet -> debit -> debut
+slate -> legal -> fecal -> decal
+slate -> racer -> decay
+slate -> fever -> decor
+slate -> fever -> beech -> decoy
+slate -> fever -> merry -> decry
+slate -> fever -> defer
+slate -> fever -> beech -> deign
+slate -> petty -> deity
+slate -> legal -> relay -> delay
+slate -> delta
+slate -> belle -> delve
+slate -> fever -> beech -> deign -> demon
+slate -> fever -> decor -> demur
+slate -> fever -> beech -> deign -> denim
+slate -> noose -> dense
+slate -> tenet -> debit -> depot
+slate -> petty -> depth
+slate -> fever -> merry -> jerky -> derby
+slate -> tenet -> deter
+slate -> tenet -> retro -> detox
+slate -> price -> dunce -> deuce
+slate -> level -> devil
+slate -> crack -> award -> diary
+slate -> fever -> honey -> dicey
+slate -> tight -> bigot -> digit
+slate -> golly -> billy -> dilly
+slate -> golly -> dryly -> dimly
+slate -> fever -> cider -> diner
+slate -> crony -> bingo -> dingo
+slate -> crony -> kinky -> dingy
+slate -> price -> binge -> diode
+slate -> price -> dirge
+slate -> birth -> dirty
+slate -> missy -> bison -> disco
+slate -> tight -> ditch
+slate -> birth -> ditty -> ditto
+slate -> birth -> ditty
+slate -> fever -> rover -> diver
+slate -> crony -> dumpy -> dizzy
+slate -> price -> fudge -> hedge -> dodge
+slate -> crony -> dowdy -> dodgy
+slate -> marry -> woman -> dogma
+slate -> crony -> bound -> doing
+slate -> golly -> dolly
+slate -> crony -> donor
+slate -> tight -> count -> donut
+slate -> fever -> honey -> dopey
+slate -> tight -> count -> doubt
+slate -> crony -> buxom -> dough
+slate -> crony -> dowdy
+slate -> level -> bowel -> dowel
+slate -> crony -> downy
+slate -> crony -> wordy -> dowry
+slate -> fever -> honey -> woken -> dozen
+slate -> trait -> graft -> craft -> draft
+slate -> crack -> brain -> drain
+slate -> grave -> brake -> drake
+slate -> crack -> brain -> graph -> drama
+slate -> crack -> drank
+slate -> grave -> brake -> crane -> drape
+slate -> crawl -> brawl -> drawl
+slate -> crack -> brain -> drawn
+slate -> racer -> break -> dread
+slate -> racer -> break -> dread -> dream
+slate -> riser -> cress -> dress
+slate -> fever -> creed -> dried
+slate -> fever -> cider -> drier
+slate -> tight -> print -> drift
+slate -> golly -> chill -> drill
+slate -> crony -> bring -> drink
+slate -> price -> brine -> drive
+slate -> tight -> print -> droit
+slate -> golly -> droll
+slate -> price -> drove -> drone
+slate -> golly -> broil -> drool
+slate -> crony -> brood -> droop
+slate -> missy -> cross -> dross
+slate -> price -> drove
+slate -> crony -> grown -> brown -> drown
+slate -> crony -> druid
+slate -> crony -> bring -> drunk
+slate -> fever -> cider -> dryer
+slate -> golly -> dryly
+slate -> crony -> mucky -> duchy
+slate -> golly -> billy -> dully
+slate -> crony -> dumpy -> dummy
+slate -> crony -> dumpy
+slate -> price -> dunce
+slate -> missy -> bushy -> dusky
+slate -> gusty -> dusty
+slate -> tight -> butch -> dutch
+slate -> tenet -> covet -> duvet
+slate -> crack -> award -> dwarf
+slate -> level -> dwell
+slate -> hotel -> dwelt
+slate -> crony -> dying
+slate -> racer -> gayer -> eager
+slate -> cable -> eagle
+slate -> legal -> baler -> early
+slate -> earth
+slate -> easel
+slate -> cater -> eaten
+slate -> cater -> eater
+slate -> fever -> ebony
+slate -> fetal -> eclat
+slate -> tenet -> erect -> edict
+slate -> fever -> edify
+slate -> price -> dirge -> eerie
+slate -> tenet -> covet -> egret
+slate -> tenet -> erect -> eight
+slate -> tenet -> erect -> eject
+slate -> fever -> ebony -> eking
+slate -> elate
+slate -> bleed -> elbow
+slate -> bleed -> older -> elder
+slate -> cleft -> elect
+slate -> bleed -> clerk -> elegy
+slate -> bleed -> elfin
+slate -> glove -> elude -> elide
+slate -> elite
+slate -> glove -> bloke -> clone -> elope
+slate -> glove -> elude
+slate -> leafy -> email
+slate -> fever -> honey -> bicep -> embed
+slate -> fever -> cider -> power -> buyer -> ember
+slate -> price -> choke -> emcee
+slate -> petty -> empty
+slate -> react -> enact
+slate -> fever -> ebony -> endow
+slate -> racer -> knead -> enema
+slate -> fever -> ebony -> enemy
+slate -> fever -> ebony -> enjoy
+slate -> fever -> ebony -> ennui
+slate -> noose -> ensue
+slate -> tenet -> enter
+slate -> tenet -> entry
+slate -> fever -> envoy
+slate -> fever -> ebony -> epoch
+slate -> fever -> ebony -> epoxy
+slate -> legal -> equal
+slate -> fever -> ebony -> equip
+slate -> chase -> abase -> erase
+slate -> tenet -> erect
+slate -> price -> drove -> erode
+slate -> fever -> error
+slate -> tenet -> erect -> erupt
+slate -> ashen -> essay
+slate -> beset -> ester
+slate -> tenet -> otter -> ether
+slate -> tenet -> ethic
+slate -> beset -> ethos
+slate -> trice -> etude
+slate -> grave -> evade
+slate -> tenet -> inept -> event
+slate -> fever -> every
+slate -> tenet -> erect -> edict -> evict
+slate -> price -> fudge -> booze -> evoke
+slate -> react -> enact -> exact
+slate -> dealt -> exalt
+slate -> level -> bowel -> expel -> excel
+slate -> tenet -> erect -> exert
+slate -> belle -> while -> exile
+slate -> beset -> crest -> exist
+slate -> level -> bowel -> expel
+slate -> hotel -> extol
+slate -> cater -> extra
+slate -> hotel -> dwelt -> exult
+slate -> fever -> ebony -> eying
+slate -> cable -> fable
+slate -> cater -> facet
+slate -> taunt -> faint
+slate -> marry -> dairy -> fairy
+slate -> catty -> faith
+slate -> false
+slate -> marry -> candy -> fancy
+slate -> marry -> candy -> fanny
+slate -> mauve -> barge -> farce
+slate -> fatal
+slate -> catty -> batty -> fatty
+slate -> fatal -> fault
+slate -> marry -> canon -> fauna
+slate -> marry -> radar -> favor
+slate -> beast -> feast
+slate -> legal -> fecal
+slate -> fever -> feign
+slate -> legal -> fella
+slate -> level -> belly -> felon
+slate -> price -> fudge -> femme
+slate -> fever -> femur
+slate -> price -> dunce -> fence
+slate -> legal -> fecal -> feral
+slate -> fever -> ferry
+slate -> fetal
+slate -> tenet -> retro -> fetch
+slate -> tenet -> retro -> fetch -> fetid
+slate -> beset -> fetus
+slate -> fever
+slate -> fever -> fewer
+slate -> fever -> fiber
+slate -> price -> dirge -> fibre
+slate -> missy -> ficus
+slate -> level -> wield -> field
+slate -> fever -> fiend
+slate -> fever -> fiery
+slate -> birth -> fifth
+slate -> birth -> ditty -> fifty
+slate -> tight -> fight
+slate -> level -> filer
+slate -> hotel -> filet
+slate -> golly -> billy -> dilly -> filly
+slate -> golly -> bulky -> filmy
+slate -> filth
+slate -> canal -> final
+slate -> crony -> punch -> finch
+slate -> fever -> fiber -> finer
+slate -> foist -> first
+slate -> missy -> fishy
+slate -> fever -> fiber -> finer -> fixer
+slate -> crony -> dumpy -> fizzy
+slate -> crony -> fjord
+slate -> clank -> black -> flack
+slate -> clank -> flail
+slate -> clank -> flail -> flair
+slate -> blare -> flake
+slate -> clank -> flaky
+slate -> blare -> flake -> flame
+slate -> clank -> blank -> flank
+slate -> blare -> flare
+slate -> clash -> flash
+slate -> clash -> flask
+slate -> bleed -> clerk -> fleck
+slate -> cleft -> fleet
+slate -> bless -> flesh
+slate -> flunk -> flick
+slate -> bleed -> flier
+slate -> flunk -> fling
+slate -> flint
+slate -> flint -> flirt
+slate -> bloat -> float
+slate -> flunk -> flick -> flock
+slate -> flunk -> flood
+slate -> flunk -> flood -> floor
+slate -> aloof -> flora
+slate -> blush -> floss
+slate -> flunk -> flour
+slate -> flint -> flout
+slate -> flunk -> flown
+slate -> flunk -> fluff
+slate -> flunk -> fluff -> fluid
+slate -> glove -> elude -> flume -> fluke
+slate -> glove -> elude -> flume
+slate -> flunk -> flung
+slate -> flunk
+slate -> blush -> flush
+slate -> elite -> flute
+slate -> bleed -> flier -> flyer
+slate -> crack -> again -> foamy
+slate -> canal -> focal
+slate -> missy -> bonus -> focus
+slate -> crony -> dowdy -> bobby -> foggy
+slate -> foist
+slate -> golly -> colon -> folio
+slate -> golly -> dolly -> folly
+slate -> marry -> array -> foray
+slate -> price -> force
+slate -> price -> gorge -> forge
+slate -> crony -> furor -> forgo
+slate -> write -> forte
+slate -> birth -> forth
+slate -> birth -> forty
+slate -> crony -> furor -> forum
+slate -> crony -> bound -> found
+slate -> fever -> fiber -> foyer
+slate -> crawl -> frail
+slate -> grave -> brake -> crane -> drape -> frame
+slate -> crack -> drank -> frank
+slate -> crack -> brain -> graph -> drama -> fraud
+slate -> racer -> break -> freak
+slate -> fever -> freed
+slate -> fever -> fiber -> foyer -> freer
+slate -> riser -> cress -> fresh
+slate -> marry -> briar -> friar
+slate -> fever -> freed -> fried
+slate -> golly -> chill -> drill -> frill
+slate -> missy -> brisk -> frisk
+slate -> birth -> fritz
+slate -> crony -> frock
+slate -> crony -> prong -> frond
+slate -> tight -> count -> front
+slate -> foist -> frost
+slate -> birth -> froth
+slate -> crony -> grown -> brown -> drown -> frown
+slate -> price -> drove -> broke -> froze
+slate -> tight -> print -> droit -> fruit
+slate -> price -> fudge
+slate -> price -> fudge -> fugue
+slate -> golly -> billy -> dully -> fully
+slate -> crony -> undid -> fungi
+slate -> crony -> kinky -> funky
+slate -> crony -> bunny -> funny
+slate -> crony -> furor
+slate -> crony -> furry
+slate -> missy -> fussy
+slate -> crony -> dumpy -> buggy -> fuzzy
+slate -> mauve -> barge -> gaffe
+slate -> canal -> dally -> gaily
+slate -> racer -> gayer -> gamer
+slate -> marry -> gamma
+slate -> taunt -> caput -> gamut
+slate -> gassy
+slate -> marry -> candy -> daddy -> bawdy -> gaudy
+slate -> mauve -> gauge
+slate -> taunt -> daunt -> gaunt
+slate -> mauve -> gauge -> gauze
+slate -> legal -> gavel
+slate -> marry -> candy -> baggy -> gawky
+slate -> racer -> gayer
+slate -> canal -> dally -> gaily -> gayly
+slate -> racer -> gayer -> gamer -> gazer
+slate -> fever -> beech -> decoy -> gecko
+slate -> fever -> beech -> needy -> geeky
+slate -> noose -> curse -> geese
+slate -> price -> binge -> genie
+slate -> price -> gorge -> genre
+slate -> foist -> ghost
+slate -> golly -> ghoul
+slate -> trait -> giant
+slate -> crony -> dumpy -> biddy -> giddy
+slate -> missy -> gipsy
+slate -> golly -> girly
+slate -> birth -> girth
+slate -> fever -> coven -> given
+slate -> fever -> rover -> diver -> giver
+slate -> blare -> flake -> glade
+slate -> clank -> bland -> gland
+slate -> blare -> flare -> glare
+slate -> clash -> flask -> glass
+slate -> blare -> flake -> glade -> glaze
+slate -> clean -> bleak -> gleam
+slate -> clean -> glean
+slate -> glove -> glide
+slate -> flint -> glint
+slate -> bloat -> float -> gloat
+slate -> glove -> globe
+slate -> flunk -> bloom -> gloom
+slate -> flunk -> bloom -> glory
+slate -> blush -> floss -> gloss
+slate -> glove
+slate -> flunk -> bloom -> glyph
+slate -> crash -> awash -> gnash
+slate -> price -> fudge -> gnome
+slate -> golly -> godly
+slate -> crony -> bound -> going
+slate -> level -> filer -> golem
+slate -> golly
+slate -> marry -> aping -> gonad
+slate -> fever -> cider -> power -> boxer -> goner
+slate -> crony -> goody
+slate -> fever -> honey -> dopey -> gooey
+slate -> crony -> goody -> goofy
+slate -> noose -> goose
+slate -> price -> gorge
+slate -> price -> fudge -> gouge
+slate -> crony -> furor -> gourd
+slate -> grave -> grace
+slate -> grave -> grace -> grade
+slate -> trait -> graft
+slate -> crawl -> frail -> grail
+slate -> crack -> brain -> drain -> grain
+slate -> crack -> brain -> grand
+slate -> trait -> graft -> grant
+slate -> grave -> grace -> grade -> grape
+slate -> crack -> brain -> graph
+slate -> crash -> grass -> grasp
+slate -> crash -> grass
+slate -> crate -> grate
+slate -> grave
+slate -> crack -> brain -> graph -> gravy
+slate -> grave -> grace -> grade -> grape -> graze
+slate -> cater -> treat -> great
+slate -> fever -> creed -> breed -> greed
+slate -> fever -> creed -> green
+slate -> tenet -> covet -> egret -> greet
+slate -> fever -> brief -> grief
+slate -> golly -> grill
+slate -> price -> brine -> drive -> grime
+slate -> crony -> grimy
+slate -> crony -> bring -> grind
+slate -> price -> gripe
+slate -> marry -> briar -> groan
+slate -> crony -> grown -> groin
+slate -> crony -> brood -> groom
+slate -> price -> grope
+slate -> missy -> cross -> dross -> gross
+slate -> crony -> brood -> group
+slate -> tight -> grout
+slate -> price -> drove -> grove
+slate -> golly -> ghoul -> growl
+slate -> crony -> grown
+slate -> level -> bowel -> expel -> cruel -> gruel
+slate -> crony -> druid -> gruff
+slate -> tight -> grout -> grunt
+slate -> crack -> award -> board -> guard
+slate -> crack -> again -> guava
+slate -> riser -> chess -> guess
+slate -> beset -> crest -> guest
+slate -> price -> ovine -> guide
+slate -> golly -> grill -> guild
+slate -> belle -> while -> exile -> guile
+slate -> built -> guilt
+slate -> noose -> curse -> guise
+slate -> golly -> gulch
+slate -> golly -> gully
+slate -> crony -> buxom -> gumbo
+slate -> crony -> dumpy -> gummy
+slate -> crony -> dumpy -> guppy
+slate -> gusty -> gusto
+slate -> gusty
+slate -> missy -> gypsy
+slate -> taunt -> carat -> habit
+slate -> marry -> dairy -> fairy -> hairy
+slate -> cable -> valve -> halve
+slate -> marry -> candy -> dandy -> handy
+slate -> marry -> candy -> baggy -> happy
+slate -> marry -> hardy
+slate -> racer -> harem
+slate -> marry -> hardy -> harpy
+slate -> marry -> carry -> harry
+slate -> gassy -> harsh
+slate -> baste -> caste -> haste
+slate -> pasty -> hasty
+slate -> taunt -> patch -> batch -> catch -> hatch
+slate -> cater -> eater -> hater
+slate -> taunt -> daunt -> gaunt -> haunt
+slate -> acute -> haute
+slate -> racer -> haven
+slate -> marry -> canon -> havoc
+slate -> legal -> camel -> hazel
+slate -> beady -> heady
+slate -> beady -> heard
+slate -> react -> heart
+slate -> death -> heath
+slate -> grave -> heave
+slate -> beady -> heavy
+slate -> price -> fudge -> hedge
+slate -> petty -> deity -> hefty
+slate -> beset -> heist
+slate -> level -> belly -> felon -> helix
+slate -> level -> belly -> cello -> hello
+slate -> price -> dunce -> fence -> hence
+slate -> fever -> merry -> heron
+slate -> golly -> billy -> dilly -> filly -> hilly
+slate -> price -> binge -> hinge
+slate -> crony -> buxom -> hippo
+slate -> crony -> dumpy -> hippy
+slate -> tight -> ditch -> hitch
+slate -> crack -> award -> board -> hoard
+slate -> crony -> dowdy -> bobby -> hobby
+slate -> foist -> hoist
+slate -> golly -> dolly -> folly -> holly
+slate -> fever -> cider -> power -> boxer -> goner -> homer
+slate -> fever -> honey
+slate -> crony -> donor -> honor
+slate -> price -> gorge -> borne -> horde
+slate -> crony -> horny
+slate -> noose -> horse
+slate -> hotel
+slate -> built -> hotly
+slate -> crony -> bound -> found -> hound
+slate -> noose -> horse -> house
+slate -> level -> hovel
+slate -> fever -> rover -> cover -> hover
+slate -> crony -> dowdy -> howdy
+slate -> marry -> woman -> human
+slate -> crony -> humid
+slate -> crony -> furor -> humor
+slate -> crony -> humid -> humph
+slate -> missy -> humus
+slate -> crony -> punch -> bunch -> hunch
+slate -> crony -> kinky -> funky -> hunky
+slate -> crony -> furry -> hurry
+slate -> missy -> bushy -> husky
+slate -> missy -> fussy -> hussy
+slate -> tight -> butch -> dutch -> hutch
+slate -> crony -> hydro
+slate -> racer -> knead -> hyena
+slate -> fever -> honey -> hymen
+slate -> fever -> cider -> power -> hyper
+slate -> golly -> dryly -> icily
+slate -> crony -> icing
+slate -> legal -> equal -> ideal
+slate -> crony -> buxom -> idiom
+slate -> tight -> print -> idiot
+slate -> level -> filer -> idler
+slate -> golly -> idyll
+slate -> golly -> igloo
+slate -> aloof -> iliac
+slate -> grave -> adage -> image
+slate -> price -> binge -> imbue
+slate -> level -> bowel -> expel -> impel
+slate -> golly -> dryly -> icily -> imply
+slate -> grave -> awake -> chafe -> inane
+slate -> crony -> bingo -> inbox
+slate -> crony -> incur
+slate -> fever -> honey -> kneed -> index
+slate -> tenet -> inept
+slate -> tenet -> inept -> inert
+slate -> fever -> infer
+slate -> tight -> ingot
+slate -> canal -> inlay
+slate -> hotel -> filet -> inlet
+slate -> fever -> cider -> inner
+slate -> tight -> print -> input
+slate -> tenet -> enter -> inter
+slate -> tight -> motif -> intro
+slate -> crony -> ionic
+slate -> crate -> grate -> irate
+slate -> crony -> irony
+slate -> islet
+slate -> noose -> issue
+slate -> tight -> itchy
+slate -> crony -> ivory
+slate -> taunt -> daunt -> gaunt -> haunt -> jaunt
+slate -> marry -> candy -> baggy -> happy -> jazzy
+slate -> level -> belly -> jelly
+slate -> fever -> merry -> jerky
+slate -> petty -> jetty
+slate -> level -> rebel -> jewel
+slate -> crony -> dumpy -> fizzy -> jiffy
+slate -> tight -> print -> joint
+slate -> foist -> hoist -> joist
+slate -> fever -> cider -> power -> boxer -> goner -> homer -> joker
+slate -> golly -> dolly -> folly -> holly -> jolly
+slate -> foist -> boost -> joust
+slate -> price -> fudge -> budge -> judge
+slate -> price -> juice
+slate -> crony -> mucky -> juicy
+slate -> crony -> buxom -> gumbo -> jumbo
+slate -> crony -> dumpy -> jumpy
+slate -> catty -> junta
+slate -> birth -> putty -> junto
+slate -> crony -> furor -> juror
+slate -> marry -> canon -> kappa
+slate -> marry -> karma
+slate -> marry -> bayou -> kayak
+slate -> racer -> knead -> kebab
+slate -> crack -> khaki
+slate -> crony -> kinky
+slate -> missy -> kiosk
+slate -> birth -> ditty -> kitty
+slate -> crack -> aback -> knack
+slate -> grave -> heave -> knave
+slate -> racer -> knead
+slate -> fever -> honey -> kneed
+slate -> level -> bowel -> expel -> cruel -> kneel
+slate -> hotel -> dwelt -> knelt
+slate -> price -> ovine -> knife
+slate -> crony -> knock
+slate -> golly -> droll -> knoll
+slate -> crony -> known
+slate -> crawl -> koala
+slate -> golly -> chill -> drill -> frill -> krill
+slate -> legal -> label
+slate -> canal -> dally -> labor
+slate -> legal -> laden
+slate -> cable -> eagle -> ladle
+slate -> legal -> lager
+slate -> cable -> lance
+slate -> canal -> lanky
+slate -> legal -> label -> lapel
+slate -> false -> lapse
+slate -> cable -> valve -> large
+slate -> canal -> dally -> labor -> larva
+slate -> basal -> lasso
+slate -> fatal -> latch
+slate -> fetal -> later
+slate -> lathe
+slate -> latte
+slate -> canal -> dally -> labor -> laugh
+slate -> legal -> laden -> layer
+slate -> leafy -> leach
+slate -> leafy
+slate -> leafy -> leaky
+slate -> dealt -> leant
+slate -> dealt -> leant -> leapt
+slate -> leafy -> leach -> learn
+slate -> lease
+slate -> leash
+slate -> least
+slate -> leave
+slate -> belle -> ledge
+slate -> level -> leery -> leech
+slate -> level -> leery
+slate -> lefty
+slate -> legal
+slate -> level -> leery -> leggy
+slate -> level -> leery -> lemon
+slate -> level -> leery -> lemur
+slate -> level -> leper
+slate -> level
+slate -> level -> lever
+slate -> level -> libel
+slate -> belle -> liege
+slate -> built -> light
+slate -> level -> linen -> liken
+slate -> canal -> lilac
+slate -> golly -> broil -> limbo
+slate -> built -> light -> limit
+slate -> level -> linen
+slate -> level -> linen -> liner
+slate -> golly -> lingo
+slate -> golly -> lurid -> lipid
+slate -> title -> lithe
+slate -> level -> liver
+slate -> golly -> lurid -> lipid -> livid
+slate -> clank -> flail -> llama
+slate -> crawl -> koala -> loamy
+slate -> loath
+slate -> golly -> lobby
+slate -> canal -> focal -> local
+slate -> locus
+slate -> belle -> liege -> lodge
+slate -> filth -> lofty
+slate -> golly -> logic
+slate -> golly -> logic -> login
+slate -> golly -> lobby -> loopy
+slate -> loose
+slate -> golly -> lobby -> loopy -> lorry
+slate -> loser
+slate -> loose -> louse
+slate -> locus -> lousy
+slate -> level -> liver -> lover
+slate -> level -> linen -> lower
+slate -> golly -> coyly -> lowly
+slate -> canal -> moral -> loyal
+slate -> golly -> lurid -> lucid
+slate -> golly -> lucky
+slate -> level -> linen -> lumen
+slate -> golly -> lucky -> lumpy
+slate -> canal -> lunar
+slate -> golly -> lurid -> lunch
+slate -> belle -> liege -> lodge -> lunge
+slate -> locus -> lupus
+slate -> golly -> lurid -> lurch
+slate -> golly -> lurid
+slate -> lusty
+slate -> golly -> lying
+slate -> golly -> lynch -> lymph
+slate -> golly -> lynch
+slate -> golly -> lynch -> lyric
+slate -> marry -> mania -> macaw
+slate -> marry -> mania -> macaw -> macho
+slate -> marry -> macro
+slate -> marry -> mania -> macaw -> madam
+slate -> canal -> dally -> badly -> madly
+slate -> marry -> mania -> mafia
+slate -> marry -> mania -> magic
+slate -> marry -> mania -> magma
+slate -> mauve -> maize
+slate -> marry -> major
+slate -> racer -> gayer -> baker -> maker
+slate -> marry -> mania -> macaw -> mambo
+slate -> marry -> mania -> magma -> mamma
+slate -> marry -> mammy
+slate -> marry -> mania -> manga
+slate -> mauve -> maize -> mange
+slate -> marry -> mania -> mango
+slate -> marry -> mammy -> mangy
+slate -> marry -> mania
+slate -> marry -> mania -> manic
+slate -> canal -> lanky -> manly
+slate -> marry -> major -> manor
+slate -> cable -> eagle -> ladle -> maple
+slate -> marry -> march
+slate -> marry
+slate -> gassy -> harsh -> marsh
+slate -> gassy -> basin -> mason
+slate -> pause -> masse
+slate -> taunt -> patch -> batch -> catch -> hatch -> match
+slate -> cater -> eaten -> matey
+slate -> mauve
+slate -> marry -> mania -> magic -> maxim
+slate -> mauve -> maize -> mange -> maybe
+slate -> marry -> mayor
+slate -> leafy -> mealy
+slate -> react -> meant
+slate -> death -> meaty
+slate -> racer -> decay -> mecca
+slate -> legal -> fecal -> pedal -> medal
+slate -> racer -> knead -> media
+slate -> fever -> beech -> decoy -> medic
+slate -> belle -> delve -> melee
+slate -> level -> belly -> felon -> melon
+slate -> fever -> merry -> mercy
+slate -> price -> gorge -> merge
+slate -> tenet -> debit -> refit -> merit
+slate -> fever -> merry
+slate -> fetal -> metal
+slate -> tenet -> deter -> meter
+slate -> tenet -> retro -> metro
+slate -> crony -> micro
+slate -> price -> binge -> midge
+slate -> foist -> midst
+slate -> tight -> fight -> might
+slate -> golly -> bulky -> milky
+slate -> crony -> pubic -> mimic
+slate -> price -> mince
+slate -> fever -> cider -> piper -> miner
+slate -> crony -> undid -> minim
+slate -> crony -> donor -> minor
+slate -> birth -> ditty -> fifty -> minty
+slate -> missy -> minus
+slate -> birth -> girth -> mirth
+slate -> riser -> miser
+slate -> missy
+slate -> marry -> mocha
+slate -> canal -> moral -> modal
+slate -> level -> bowel -> model
+slate -> fever -> honey -> modem
+slate -> golly -> logic -> mogul
+slate -> foist -> hoist -> joist -> moist
+slate -> canal -> molar
+slate -> golly -> moldy
+slate -> fever -> honey -> boney -> money
+slate -> birth -> mouth -> month
+slate -> crony -> goody -> moody
+slate -> noose -> goose -> moose
+slate -> canal -> moral
+slate -> crony -> donor -> moron
+slate -> crony -> furor -> morph
+slate -> missy -> mossy
+slate -> hotel -> motel
+slate -> tight -> motif
+slate -> tight -> motor
+slate -> birth -> putty -> motto
+slate -> built -> moult
+slate -> crony -> bound -> found -> hound -> mound
+slate -> tight -> count -> mount
+slate -> crony -> donor -> mourn
+slate -> noose -> horse -> poise -> mouse
+slate -> birth -> mouth
+slate -> fever -> rover -> cover -> hover -> mover
+slate -> price -> binge -> movie
+slate -> fever -> cider -> power -> mower
+slate -> crony -> mucky
+slate -> missy -> mucus
+slate -> crony -> dumpy -> muddy
+slate -> golly -> mulch
+slate -> crony -> dumpy -> gummy -> mummy
+slate -> crony -> punch -> bunch -> hunch -> munch
+slate -> canal -> moral -> mural
+slate -> crony -> furry -> murky
+slate -> missy -> mushy
+slate -> missy -> music
+slate -> missy -> mushy -> musky
+slate -> gusty -> dusty -> musty
+slate -> crony -> myrrh
+slate -> marry -> radar -> nadir
+slate -> mauve -> naive
+slate -> marry -> candy -> fanny -> nanny
+slate -> basal -> nasal
+slate -> pasty -> hasty -> nasty
+slate -> fatal -> natal
+slate -> canal -> naval
+slate -> legal -> camel -> hazel -> navel
+slate -> fever -> beech -> needy
+slate -> fever -> beech -> neigh
+slate -> fever -> merry -> jerky -> derby -> nerdy
+slate -> price -> gorge -> nerve
+slate -> fever -> never
+slate -> fever -> newer
+slate -> level -> belly -> newly
+slate -> fever -> cider -> nicer
+slate -> price -> niche
+slate -> price -> mince -> niece
+slate -> tight -> fight -> might -> night
+slate -> marry -> aping -> ninja
+slate -> crony -> bunny -> ninny
+slate -> birth -> fifth -> ninth
+slate -> belle -> noble
+slate -> golly -> coyly -> lowly -> nobly
+slate -> noose -> noise
+slate -> missy -> noisy
+slate -> marry -> woman -> nomad
+slate -> noose
+slate -> birth -> forth -> north
+slate -> riser -> bused -> nosey
+slate -> tight -> butch -> notch
+slate -> level -> hovel -> novel
+slate -> price -> fudge -> budge -> judge -> nudge
+slate -> noose -> nurse
+slate -> birth -> putty -> nutty
+slate -> golly -> nylon
+slate -> crony -> nymph
+slate -> racer -> haven -> oaken
+slate -> noose -> obese
+slate -> crony -> micro -> occur
+slate -> racer -> cheap -> ocean
+slate -> fatal -> octal
+slate -> tenet -> covet -> octet
+slate -> fever -> cider -> odder
+slate -> golly -> oddly
+slate -> canal -> moral -> offal
+slate -> fever -> infer -> offer
+slate -> tenet -> enter -> often
+slate -> bleed -> older -> olden
+slate -> bleed -> older
+slate -> glove -> olive
+slate -> price -> gorge -> ombre
+slate -> racer -> knead -> omega
+slate -> crony -> bingo -> onion
+slate -> beset -> unset -> onset
+slate -> racer -> break -> opera
+slate -> price -> opine
+slate -> crony -> buxom -> opium
+slate -> tight -> motif -> optic
+slate -> tight -> print -> droit -> orbit
+slate -> fever -> cider -> odder -> order
+slate -> marry -> briar -> groan -> organ
+slate -> tenet -> otter -> other
+slate -> tenet -> otter
+slate -> tight -> ought
+slate -> price -> dunce -> ounce
+slate -> tight -> motor -> outdo
+slate -> tenet -> otter -> outer
+slate -> tight -> outgo
+slate -> crack -> award -> ovary
+slate -> crate -> abate -> ovate
+slate -> tenet -> erect -> overt
+slate -> price -> ovine
+slate -> crony -> ovoid
+slate -> crony -> bound -> owing
+slate -> fever -> cider -> power -> owner
+slate -> price -> ovine -> oxide
+slate -> price -> fudge -> booze -> ozone
+slate -> marry -> candy -> daddy -> paddy
+slate -> marry -> canon -> pagan
+slate -> taunt -> faint -> paint
+slate -> legal -> baler -> paler
+slate -> basal -> palsy
+slate -> legal -> camel -> hazel -> navel -> panel
+slate -> marry -> canon -> panic
+slate -> gassy -> daisy -> pansy
+slate -> canal -> papal
+slate -> racer -> gayer -> baker -> paper
+slate -> racer -> gayer -> baker -> paper -> parer
+slate -> marry -> baron -> parka
+slate -> marry -> carry -> harry -> parry
+slate -> pause -> parse
+slate -> catty -> party
+slate -> pasty -> pasta
+slate -> baste -> caste -> haste -> paste
+slate -> pasty
+slate -> taunt -> patch
+slate -> taunt -> patch -> patio
+slate -> angst -> patsy
+slate -> catty -> batty -> fatty -> patty
+slate -> pause
+slate -> mauve -> barge -> canoe -> payee
+slate -> racer -> gayer -> payer
+slate -> grave -> awake -> chafe -> peace
+slate -> beady -> reach -> peach
+slate -> leafy -> pearl
+slate -> racer -> decay -> pecan
+slate -> legal -> fecal -> pedal
+slate -> legal -> fecal -> pedal -> penal
+slate -> price -> pence
+slate -> price -> penne
+slate -> fever -> beech -> deign -> penny
+slate -> fever -> merry -> heron -> perch
+slate -> level -> peril
+slate -> fever -> merry -> jerky -> perky
+slate -> riser -> pesky
+slate -> testy -> pesto
+slate -> fetal -> metal -> petal
+slate -> petty
+slate -> chase -> phase
+slate -> price -> penne -> phone
+slate -> crony -> phony
+slate -> birth -> photo
+slate -> crack -> again -> piano
+slate -> crony -> mucky -> picky
+slate -> price -> piece
+slate -> petty -> piety
+slate -> crony -> dumpy -> piggy
+slate -> built -> light -> pilot
+slate -> crony -> punch -> pinch
+slate -> fever -> honey -> piney
+slate -> crony -> kinky -> pinky
+slate -> birth -> ditty -> pinto
+slate -> fever -> cider -> piper
+slate -> price -> pique
+slate -> tight -> ditch -> hitch -> pitch
+slate -> tight -> pithy
+slate -> tight -> pivot
+slate -> level -> bowel -> expel -> pixel
+slate -> price -> pique -> pixie
+slate -> marry -> aping -> pizza
+slate -> blare -> flake -> glade -> place
+slate -> clank -> flail -> plaid
+slate -> clank -> plain
+slate -> plait
+slate -> blare -> flake -> glade -> place -> plane
+slate -> clank -> blank -> flank -> plank
+slate -> plait -> plant
+slate -> elate -> plate
+slate -> clank -> flail -> llama -> plaza
+slate -> clean -> bleak -> gleam -> plead
+slate -> bleat -> cleat -> pleat
+slate -> bleed -> clued -> plied
+slate -> bleed -> flier -> plier
+slate -> flunk -> cluck -> pluck
+slate -> flunk -> plumb
+slate -> glove -> elude -> flume -> plume
+slate -> flunk -> plumb -> plump
+slate -> flunk -> plunk
+slate -> blush -> flush -> plush
+slate -> riser -> chess -> poesy
+slate -> tight -> print -> point
+slate -> noose -> horse -> poise
+slate -> fever -> cider -> power -> poker
+slate -> canal -> molar -> polar
+slate -> canal -> villa -> polka
+slate -> golly -> polyp
+slate -> crony -> pooch
+slate -> crony -> dowdy -> bobby -> foggy -> poppy
+slate -> crony -> micro -> porch
+slate -> riser -> poser
+slate -> foist -> posit
+slate -> noose -> horse -> poise -> posse
+slate -> crony -> pouch
+slate -> crony -> bound -> found -> hound -> mound -> pound
+slate -> birth -> putty -> pouty
+slate -> fever -> cider -> power
+slate -> crack -> drank -> frank -> prank
+slate -> crack -> brain -> drawn -> prawn
+slate -> fever -> creed -> green -> preen
+slate -> riser -> cress -> dress -> press
+slate -> price
+slate -> crony -> brick -> prick
+slate -> price -> pride
+slate -> fever -> creed -> dried -> pried
+slate -> price -> pride -> prime
+slate -> crony -> primo
+slate -> tight -> print
+slate -> crony -> primo -> prior
+slate -> missy -> prism
+slate -> crony -> grimy -> privy
+slate -> price -> pride -> prime -> prize
+slate -> price -> prone -> probe
+slate -> price -> prone
+slate -> crony -> prong
+slate -> crony -> brood -> groom -> proof
+slate -> noose -> chose -> prose
+slate -> crony -> brood -> proud
+slate -> price -> prone -> probe -> prove
+slate -> golly -> broil -> drool -> prowl
+slate -> crony -> proxy
+slate -> price -> prone -> prude
+slate -> price -> prone -> prune
+slate -> psalm
+slate -> crony -> pubic
+slate -> crony -> dumpy -> pudgy
+slate -> crony -> dumpy -> puffy
+slate -> golly -> bulky -> pulpy
+slate -> loose -> pulse
+slate -> crony -> punch
+slate -> canal -> moral -> axial -> pupal
+slate -> golly -> lurid -> pupil
+slate -> crony -> dumpy -> guppy -> puppy
+slate -> price -> puree
+slate -> fever -> cider -> power -> purer
+slate -> price -> puree -> purge
+slate -> noose -> curse -> purse
+slate -> missy -> bushy -> pushy
+slate -> birth -> putty
+slate -> crony -> dumpy -> pygmy
+slate -> crack -> aback -> knack -> quack
+slate -> crawl -> avail -> quail
+slate -> grave -> awake -> quake
+slate -> crawl -> koala -> qualm
+slate -> crack -> quark
+slate -> trait -> apart -> chart -> quart
+slate -> crash -> awash -> gnash -> quash
+slate -> crash -> amass -> quasi
+slate -> fever -> honey -> kneed -> queen
+slate -> fever -> cider -> power -> buyer -> queer
+slate -> level -> dwell -> quell
+slate -> fever -> credo -> query
+slate -> beset -> crest -> guest -> quest
+slate -> price -> fudge -> queue
+slate -> crony -> pubic -> quick
+slate -> tenet -> covet -> egret -> quiet
+slate -> golly -> chill -> drill -> quill
+slate -> built -> guilt -> quilt
+slate -> crony -> quirk
+slate -> write -> quite
+slate -> catty -> junta -> quota
+slate -> write -> butte -> quote
+slate -> birth -> mouth -> quoth
+slate -> marry -> radar -> rabbi
+slate -> marry -> radar -> rabid
+slate -> racer
+slate -> marry -> radar
+slate -> marry -> radar -> radii
+slate -> marry -> radar -> radii -> radio
+slate -> marry -> rainy
+slate -> pause -> masse -> raise
+slate -> marry -> radar -> rajah
+slate -> canal -> dally -> rally
+slate -> canal -> dally -> ralph
+slate -> racer -> ramen
+slate -> marry -> radar -> rabbi -> ranch
+slate -> marry -> rainy -> randy
+slate -> mauve -> barge -> range
+slate -> marry -> radar -> rabid -> rapid
+slate -> racer -> rarer
+slate -> gassy -> raspy
+slate -> taunt -> patch -> ratio
+slate -> catty -> batty -> fatty -> patty -> ratty
+slate -> racer -> ramen -> raven
+slate -> marry -> rayon
+slate -> marry -> radar -> razor
+slate -> beady -> reach
+slate -> react
+slate -> beady -> heady -> ready
+slate -> leafy -> pearl -> realm
+slate -> beady -> reach -> rearm
+slate -> racer -> rebar
+slate -> level -> rebel
+slate -> riser -> rebus
+slate -> tenet -> debit -> rebut
+slate -> racer -> recap
+slate -> fever -> decor -> recur
+slate -> tenet -> debit -> recut
+slate -> fever -> merry -> reedy
+slate -> fever -> defer -> refer
+slate -> tenet -> debit -> refit
+slate -> legal -> regal
+slate -> racer -> rehab
+slate -> fever -> merry -> reign
+slate -> legal -> relay -> relax
+slate -> legal -> relay
+slate -> level -> belly -> felon -> helix -> relic
+slate -> tenet -> debit -> refit -> remit
+slate -> legal -> fecal -> pedal -> renal
+slate -> fever -> renew
+slate -> racer -> rehab -> repay
+slate -> level -> rebel -> repel
+slate -> level -> belly -> newly -> reply
+slate -> fever -> merry -> heron -> rerun
+slate -> beset -> reset
+slate -> riser -> resin
+slate -> tenet -> retro -> retch
+slate -> tenet -> retro
+slate -> tenet -> retro -> retry
+slate -> noose -> curse -> reuse
+slate -> level -> bevel -> revel
+slate -> price -> gorge -> rhyme -> revue
+slate -> crony -> rhino
+slate -> price -> gorge -> rhyme
+slate -> fever -> cider -> rider
+slate -> price -> dirge -> ridge
+slate -> belle -> while -> rifle
+slate -> tight -> fight -> might -> night -> right
+slate -> crony -> quirk -> rigid
+slate -> crony -> furor -> rigor
+slate -> noose -> dense -> rinse
+slate -> fever -> creed -> ripen
+slate -> fever -> cider -> piper -> riper
+slate -> riser -> risen
+slate -> riser
+slate -> missy -> fishy -> risky
+slate -> canal -> moral -> rival
+slate -> fever -> rover -> river
+slate -> tenet -> covet -> duvet -> rivet
+slate -> crack -> roach
+slate -> toast -> boast -> coast -> roast
+slate -> crony -> donor -> mourn -> robin
+slate -> tight -> count -> robot
+slate -> crony -> rocky
+slate -> fever -> creed -> rodeo
+slate -> fever -> cider -> power -> boxer -> goner -> roger
+slate -> price -> gorge -> rogue
+slate -> crony -> ivory -> roomy
+slate -> foist -> boost -> roost
+slate -> tight -> motor -> rotor
+slate -> price -> gorge -> rouge
+slate -> crony -> furor -> gourd -> rough
+slate -> crony -> rhino -> round
+slate -> noose -> horse -> rouse
+slate -> write -> forte -> route
+slate -> fever -> rover
+slate -> crony -> wordy -> rowdy
+slate -> fever -> cider -> power -> mower -> rower
+slate -> canal -> moral -> royal
+slate -> crony -> furry -> ruddy
+slate -> fever -> cider -> odder -> ruder
+slate -> crony -> furry -> ruddy -> rugby
+slate -> level -> filer -> ruler
+slate -> marry -> armor -> rumba
+slate -> crony -> furor -> humor -> rumor
+slate -> price -> rupee
+slate -> canal -> moral -> rural
+slate -> gusty -> dusty -> musty -> rusty
+slate -> salad -> sadly
+slate -> spear -> safer
+slate -> strap -> saint
+slate -> salad
+slate -> salad -> sally
+slate -> salad -> sally -> salon
+slate -> salad -> sally -> salon -> salsa
+slate -> salty
+slate -> salve
+slate -> salad -> sally -> salon -> salvo
+slate -> saucy -> savoy -> sandy
+slate -> spear -> safer -> saner
+slate -> saucy -> savoy -> sandy -> sappy
+slate -> saucy -> savoy -> sandy -> sappy -> sassy
+slate -> strap -> saint -> satin
+slate -> strap -> satyr
+slate -> sauce
+slate -> saucy
+slate -> saucy -> sauna
+slate -> saute
+slate -> saucy -> savor
+slate -> saucy -> savoy
+slate -> saucy -> savoy -> savvy
+slate -> shall -> scald
+slate -> scale
+slate -> shall -> scald -> scalp
+slate -> shall -> scald -> scalp -> scaly
+slate -> shark -> swamp -> scamp
+slate -> start -> scant
+slate -> share -> scare
+slate -> shark -> scarf
+slate -> shark -> scarf -> scary
+slate -> spore -> siege -> scene
+slate -> steep -> scent
+slate -> shook -> scion
+slate -> shook -> scorn -> scoff
+slate -> skill -> sully -> scold
+slate -> spore -> shone -> scone
+slate -> shook -> swoop -> scoop
+slate -> spore -> scope
+slate -> spore -> score
+slate -> shook -> scorn
+slate -> shook -> scorn -> scour
+slate -> stout -> scout
+slate -> skill -> scowl
+slate -> saucy -> scram
+slate -> saucy -> scram -> scrap
+slate -> spore -> scree
+slate -> sheer -> screw
+slate -> shook -> spiny -> scrub
+slate -> shook -> spiny -> scrub -> scrum
+slate -> saucy -> scuba
+slate -> spear -> sedan
+slate -> sheer -> speck -> seedy
+slate -> spore -> siege -> segue
+slate -> spore -> siege -> shine -> seize
+slate -> sheer -> semen
+slate -> spore -> siege -> sense
+slate -> spear -> sepia
+slate -> sheer -> serif
+slate -> sheer -> serif -> serum
+slate -> spore -> scree -> serve
+slate -> steep -> setup
+slate -> sheer -> semen -> seven
+slate -> sheer -> sewer -> sever
+slate -> sheer -> sewer
+slate -> shark -> shack
+slate -> share -> shade
+slate -> shark -> shady
+slate -> start -> scant -> shaft
+slate -> share -> shade -> shake
+slate -> shark -> shaky
+slate -> scale -> shale
+slate -> shall
+slate -> stalk -> shalt
+slate -> share -> shade -> shake -> shame
+slate -> shark -> shack -> shank
+slate -> share -> shade -> shake -> shame -> shape
+slate -> shark -> shard
+slate -> share
+slate -> shark
+slate -> shark -> shard -> sharp
+slate -> share -> shade -> shake -> shame -> shape -> shave
+slate -> shall -> shawl
+slate -> spear -> shear
+slate -> sheer -> sheen
+slate -> sheer -> sheen -> sheep
+slate -> sheer
+slate -> steep -> sheet
+slate -> sheer -> sheik
+slate -> shell -> shelf
+slate -> shell
+slate -> sheer -> shied
+slate -> stout -> shift
+slate -> spore -> siege -> shine
+slate -> shook -> shrub -> shiny
+slate -> spore -> shire
+slate -> shook -> shirk
+slate -> stout -> shift -> shirt
+slate -> salad -> shoal
+slate -> shook -> shock
+slate -> spore -> shone
+slate -> shook
+slate -> stout -> short -> shoot
+slate -> spore -> score -> shore
+slate -> shook -> shown -> shorn
+slate -> stout -> short
+slate -> stout -> scout -> shout
+slate -> spore -> shone -> shove
+slate -> shook -> shown
+slate -> shook -> shown -> showy
+slate -> sheer -> shrew
+slate -> shook -> shrub
+slate -> shook -> shrub -> shrug
+slate -> shook -> shirk -> shuck
+slate -> stout -> shunt
+slate -> shook -> shrub -> shush
+slate -> skill -> sully -> shyly
+slate -> spore -> siege
+slate -> spore -> siege -> sieve
+slate -> stout -> shift -> sight
+slate -> saucy -> sigma
+slate -> skill -> silky
+slate -> skill -> silly
+slate -> spore -> siege -> since
+slate -> sheer -> semen -> sinew
+slate -> spore -> siege -> singe
+slate -> sheer -> screw -> siren
+slate -> shook -> spiny -> sissy
+slate -> sooth -> sixth
+slate -> sooth -> sixty
+slate -> skate
+slate -> sheer -> sewer -> super -> skier
+slate -> shook -> skiff
+slate -> skill
+slate -> shook -> skiff -> skimp
+slate -> stout -> shift -> skirt
+slate -> skill -> skulk
+slate -> skill -> skull
+slate -> shook -> skunk
+slate -> slack
+slate -> slack -> slain
+slate -> slack -> slain -> slang
+slate -> slant
+slate -> slack -> slain -> slash
+slate
+slate -> slave
+slate -> sleek
+slate -> sleek -> sleep
+slate -> sleet
+slate -> sleet -> slept
+slate -> slice
+slate -> slunk -> slick
+slate -> slice -> slide
+slate -> slice -> slide -> slime
+slate -> slunk -> slimy
+slate -> slunk -> sling
+slate -> slunk -> slink
+slate -> slunk -> slimy -> sloop
+slate -> slice -> slope
+slate -> slunk -> slimy -> sloop -> slosh
+slate -> sloth
+slate -> slunk -> slump
+slate -> slunk -> slung
+slate -> slunk
+slate -> slunk -> slump -> slurp
+slate -> slunk -> slump -> slush
+slate -> slunk -> slimy -> slyly
+slate -> shark -> smack
+slate -> shall -> small
+slate -> start -> smart
+slate -> shark -> smash
+slate -> spear -> shear -> smear
+slate -> shell -> smell
+slate -> smelt
+slate -> smile
+slate -> shook -> skunk -> smirk
+slate -> smite
+slate -> sooth -> sixth -> smith
+slate -> shook -> smock
+slate -> spore -> shone -> smoke
+slate -> shook -> smoky
+slate -> smite -> smote
+slate -> shark -> smack -> snack
+slate -> shall -> snail
+slate -> share -> space -> snake
+slate -> shark -> snaky
+slate -> share -> scare -> snare
+slate -> shall -> snail -> snarl
+slate -> spear -> sneak
+slate -> sheer -> sneer
+slate -> spore -> siege -> shine -> snide
+slate -> shook -> spiny -> sniff
+slate -> spore -> snipe
+slate -> shook -> swoop -> scoop -> snoop
+slate -> spore -> score -> shore -> snore
+slate -> stout -> short -> snort
+slate -> stout -> scout -> shout -> snout
+slate -> shook -> scorn -> snowy
+slate -> shook -> skunk -> snuck
+slate -> shook -> spiny -> snuff
+slate -> shark -> swamp -> soapy
+slate -> sheer -> sewer -> super -> skier -> sober
+slate -> shook -> soggy
+slate -> salad -> solar
+slate -> skill -> solid
+slate -> smile -> solve
+slate -> saucy -> sigma -> sonar
+slate -> shook -> soggy -> sonic
+slate -> sooth
+slate -> sooth -> sooty
+slate -> shook -> soggy -> sorry
+slate -> shook -> soggy -> sonic -> sound
+slate -> sooth -> south
+slate -> sheer -> sewer -> sower
+slate -> share -> space
+slate -> share -> space -> spade
+slate -> shark -> smack -> spank
+slate -> share -> scare -> snare -> spare
+slate -> shark -> spark
+slate -> shark -> swamp -> spasm
+slate -> shark -> swamp -> spawn
+slate -> spear -> speak
+slate -> spear
+slate -> sheer -> speck
+slate -> sheer -> speed
+slate -> shell -> smell -> spell
+slate -> smelt -> spelt
+slate -> sheer -> speck -> spend
+slate -> steep -> spent
+slate -> sheer -> sperm
+slate -> spore -> spice
+slate -> shook -> spiny -> spicy
+slate -> sheer -> semen -> spied
+slate -> shell -> spiel
+slate -> spore -> spice -> spike
+slate -> shook -> skiff -> spiky
+slate -> skill -> spill
+slate -> stilt -> spilt
+slate -> spore -> spice -> spike -> spine
+slate -> shook -> spiny
+slate -> spore -> spire
+slate -> smite -> spite
+slate -> splat
+slate -> stilt -> split
+slate -> skill -> spoil
+slate -> spore -> spoke
+slate -> shook -> swoop -> spoof
+slate -> shook -> spook
+slate -> skill -> scowl -> spool
+slate -> shook -> swoop -> spoof -> spoon
+slate -> spore
+slate -> stout -> short -> snort -> sport
+slate -> stout -> scout -> shout -> snout -> spout
+slate -> saucy -> spray
+slate -> spore -> spree
+slate -> shook -> spiny -> sprig
+slate -> shook -> skunk -> spunk
+slate -> shook -> spiny -> spurn
+slate -> stout -> shunt -> spurt
+slate -> saucy -> squad
+slate -> strap -> squat
+slate -> shook -> spiny -> squib
+slate -> start -> staid -> stack
+slate -> start -> staid -> stack -> staff
+slate -> stage
+slate -> start -> staid
+slate -> start -> staid -> stain
+slate -> start -> stair
+slate -> stage -> stake
+slate -> stale
+slate -> stalk
+slate -> stalk -> stall
+slate -> start -> staid -> stack -> staff -> stamp
+slate -> start -> staid -> stand
+slate -> start -> staid -> stack -> stank
+slate -> stage -> stake -> stare
+slate -> start -> stark
+slate -> start
+slate -> start -> staid -> stack -> staff -> stamp -> stash
+slate -> skate -> state
+slate -> stage -> stake -> stare -> stave
+slate -> stead
+slate -> stead -> steak
+slate -> steal
+slate -> stead -> steak -> steam
+slate -> steep -> steed
+slate -> smelt -> steel
+slate -> steep
+slate -> steep -> steed -> steer
+slate -> steep -> stein
+slate -> steep -> stein -> stern
+slate -> stout -> stink -> stick
+slate -> stout -> stink -> stiff
+slate -> stilt -> still
+slate -> stilt
+slate -> stout -> stink -> sting
+slate -> stout -> stink
+slate -> stout -> stint
+slate -> stout -> stork -> stock
+slate -> stout -> stork -> stoop -> stoic
+slate -> stoke
+slate -> stole
+slate -> stout -> stork -> stoop -> stomp
+slate -> stoke -> stone
+slate -> stout -> stork -> stoop -> stoic -> stony
+slate -> stout -> stork -> stoop -> stood
+slate -> stilt -> stool
+slate -> stout -> stork -> stoop
+slate -> stoke -> stone -> store
+slate -> stout -> stork
+slate -> stout -> stork -> storm
+slate -> stout -> stork -> storm -> story
+slate -> stout
+slate -> stoke -> stone -> store -> stove
+slate -> strap
+slate -> strap -> straw
+slate -> strap -> straw -> stray
+slate -> stout -> stink -> strip
+slate -> stout -> strut
+slate -> stout -> stunk -> stuck
+slate -> stout -> stunk -> study
+slate -> stout -> stunk -> study -> stuff
+slate -> stout -> stunk -> study -> stuff -> stump
+slate -> stout -> stunk -> stung
+slate -> stout -> stunk
+slate -> stout -> stunt
+slate -> stole -> style
+slate -> share -> space -> snake -> suave
+slate -> saucy -> sugar
+slate -> shook -> spiny -> suing
+slate -> smite -> spite -> suite
+slate -> skill -> sulky
+slate -> skill -> sully
+slate -> saucy -> sumac
+slate -> shook -> spiny -> sunny
+slate -> sheer -> sewer -> super
+slate -> sheer -> sewer -> super -> surer
+slate -> spore -> scree -> serve -> surge
+slate -> skill -> sully -> surly
+slate -> shook -> sushi
+slate -> shark -> swamp -> swami
+slate -> shark -> swamp
+slate -> shark -> scarf -> swarm
+slate -> shark -> smash -> swash
+slate -> swath
+slate -> spear -> shear -> smear -> swear
+slate -> stead -> sweat
+slate -> sheer -> speed -> sweep
+slate -> steep -> sheet -> sweet
+slate -> shell -> smell -> spell -> swell
+slate -> steep -> spent -> swept
+slate -> stout -> shift -> swift
+slate -> skill -> spill -> swill
+slate -> spore -> siege -> shine -> swine
+slate -> shook -> spiny -> suing -> swing
+slate -> skill -> swirl
+slate -> shook -> sushi -> swish
+slate -> shook -> swoop -> swoon
+slate -> shook -> swoop
+slate -> shook -> scorn -> sword
+slate -> spore -> score -> shore -> snore -> swore
+slate -> shook -> scorn -> sworn
+slate -> shook -> spiny -> swung
+slate -> shook -> scion -> synod
+slate -> shook -> spiny -> syrup
+slate -> taunt -> tabby
+slate -> lathe -> table
+slate -> taunt -> tabby -> taboo
+slate -> taunt -> tacit
+slate -> taunt -> tabby -> tacky
+slate -> taunt -> tabby -> tacky -> taffy
+slate -> taunt -> taint
+slate -> cater -> taken
+slate -> cater -> taker
+slate -> fatal -> tally
+slate -> fatal -> tally -> talon
+slate -> cater -> taker -> tamer
+slate -> taunt -> tango
+slate -> taunt -> tango -> tangy
+slate -> cater -> taker -> tamer -> taper
+slate -> taunt -> tabby -> tapir
+slate -> taunt -> tabby -> tacky -> taffy -> tardy
+slate -> taunt -> tacit -> tarot
+slate -> baste -> caste -> haste -> paste -> taste
+slate -> pasty -> hasty -> nasty -> tasty
+slate -> catty -> batty -> fatty -> patty -> ratty -> tatty
+slate -> taunt
+slate -> taunt -> tawny
+slate -> react -> teach
+slate -> react -> teary
+slate -> tease
+slate -> tenet -> teddy
+slate -> petty -> teeth
+slate -> tenet -> teddy -> tempo
+slate -> tenet
+slate -> tenet -> tenor
+slate -> tense
+slate -> petty -> teeth -> tenth
+slate -> trice -> theme -> tepee
+slate -> tenet -> teddy -> tepid
+slate -> cater -> treat -> terra
+slate -> tense -> terse
+slate -> testy
+slate -> trait -> thank
+slate -> tenet -> theft
+slate -> tenet -> their
+slate -> trice -> theme
+slate -> trice -> there
+slate -> tense -> these
+slate -> earth -> theta
+slate -> tight -> thick
+slate -> tenet -> tiger -> thief
+slate -> tight -> thigh
+slate -> tight -> thigh -> thing
+slate -> tight -> thick -> think
+slate -> tight -> thick -> third
+slate -> tight -> thong
+slate -> tight -> throb -> thorn
+slate -> tense -> these -> those
+slate -> trice -> there -> three
+slate -> tenet -> tiger -> threw
+slate -> tight -> throb
+slate -> tight -> throb -> throw
+slate -> tight -> throb -> thrum
+slate -> tight -> throb -> thumb
+slate -> tight -> throb -> thump
+slate -> trice -> theme -> thyme
+slate -> trait -> tiara
+slate -> taunt -> today -> tibia
+slate -> fatal -> tidal
+slate -> tenet -> tiger
+slate -> tight
+slate -> title -> tilde
+slate -> tenet -> tiger -> timer
+slate -> tight -> timid
+slate -> foist -> tipsy
+slate -> taunt -> titan
+slate -> trice -> tithe
+slate -> title
+slate -> toast
+slate -> taunt -> today
+slate -> tight -> troop -> toddy
+slate -> tenet -> token
+slate -> fatal -> tidal -> tonal
+slate -> taunt -> titan -> tonga
+slate -> tight -> tonic
+slate -> birth -> mouth -> tooth
+slate -> taunt -> today -> topaz
+slate -> tight -> tonic -> topic
+slate -> tight -> throb -> torch
+slate -> foist -> torso
+slate -> foist -> torus
+slate -> fatal -> octal -> total
+slate -> tenet -> tiger -> totem
+slate -> tight -> throb -> touch
+slate -> tight -> thong -> tough
+slate -> hotel -> towel
+slate -> tenet -> tiger -> tower
+slate -> tight -> tonic -> topic -> toxic
+slate -> tight -> tonic -> toxin
+slate -> trace
+slate -> trait -> track
+slate -> trait -> tract
+slate -> trace -> trade
+slate -> trail
+slate -> trait -> train
+slate -> trait
+slate -> trait -> track -> tramp
+slate -> toast -> trash
+slate -> trail -> trawl
+slate -> cater -> treat -> tread
+slate -> cater -> treat
+slate -> tenet -> trend
+slate -> taunt -> today -> triad
+slate -> fatal -> tidal -> trial
+slate -> trice -> tribe
+slate -> trice
+slate -> tight -> tonic -> trick
+slate -> tenet -> tiger -> tried
+slate -> trice -> tribe -> tripe
+slate -> write -> trite
+slate -> built -> hotly -> troll
+slate -> tight -> troop
+slate -> trice -> trope
+slate -> tight -> trout
+slate -> trice -> trope -> trove
+slate -> trice -> truce
+slate -> tight -> troop -> truck
+slate -> tenet -> tiger -> tower -> truer
+slate -> built -> truly
+slate -> tight -> troop -> trump
+slate -> tight -> troop -> truck -> trunk
+slate -> foist -> truss
+slate -> foist -> trust
+slate -> birth -> froth -> truth
+slate -> foist -> trust -> tryst
+slate -> fatal -> tidal -> tonal -> tubal
+slate -> tenet -> tiger -> tower -> truer -> tuber
+slate -> built -> tulip
+slate -> title -> tulle
+slate -> tight -> troop -> tumor
+slate -> tight -> tonic -> tunic
+slate -> tight -> troop -> turbo
+slate -> tight -> troop -> tumor -> tutor
+slate -> trait -> thank -> twang
+slate -> cater -> wheat -> tweak
+slate -> tenet -> tiger -> totem -> tweed
+slate -> tenet -> tweet
+slate -> trice -> twice
+slate -> trice -> twine
+slate -> built -> twirl
+slate -> foist -> twist
+slate -> tight -> twixt
+slate -> tight -> tying
+slate -> fever -> cider -> odder -> udder
+slate -> bleed -> flier -> ulcer
+slate -> bloat -> ultra
+slate -> marry -> umbra
+slate -> belle -> while -> cycle -> uncle
+slate -> tight -> count -> uncut
+slate -> fever -> cider -> odder -> ruder -> under
+slate -> crony -> undid
+slate -> price -> fudge -> undue
+slate -> fever -> chief -> unfed
+slate -> tight -> print -> unfit
+slate -> crony -> kinky -> unify
+slate -> crony -> bingo -> onion -> union
+slate -> write -> quite -> unite
+slate -> birth -> unity
+slate -> built -> unlit
+slate -> tenet -> unmet
+slate -> beset -> unset
+slate -> trice -> untie
+slate -> built -> until
+slate -> fever -> honey -> kneed -> unwed
+slate -> crony -> undid -> unzip
+slate -> fever -> cider -> power -> hyper -> upper
+slate -> beset -> unset -> upset
+slate -> marry -> briar -> urban
+slate -> price -> brine -> urine
+slate -> chase -> usage
+slate -> riser -> usher
+slate -> missy -> using
+slate -> basal -> usual
+slate -> missy -> bonus -> usurp
+slate -> title -> utile
+slate -> tenet -> otter -> utter
+slate -> mauve -> vague
+slate -> fetal -> valet
+slate -> canal -> dally -> valid
+slate -> canal -> dally -> ralph -> valor
+slate -> cable -> valve -> value
+slate -> cable -> valve
+slate -> marry -> canon -> kappa -> vapid
+slate -> marry -> radar -> favor -> vapor
+slate -> fatal -> tally -> vault
+slate -> taunt -> daunt -> gaunt -> haunt -> jaunt -> vaunt
+slate -> racer -> knead -> began -> vegan
+slate -> fever -> venom
+slate -> price -> fudge -> venue
+slate -> price -> gorge -> merge -> verge
+slate -> noose -> curse -> verse
+slate -> riser -> cress -> verso
+slate -> price -> gorge -> nerve -> verve
+slate -> marry -> briar -> cigar -> vicar
+slate -> fever -> video
+slate -> golly -> vigil
+slate -> crony -> furor -> rigor -> vigor
+slate -> canal -> villa
+slate -> golly -> lynch -> vinyl
+slate -> canal -> villa -> viola
+slate -> fever -> viper
+slate -> canal -> moral -> rural -> viral
+slate -> missy -> ficus -> virus
+slate -> foist -> visit
+slate -> missy -> bison -> visor
+slate -> pasty -> vista
+slate -> fatal -> octal -> vital
+slate -> crony -> humid -> vivid
+slate -> fever -> video -> vixen
+slate -> canal -> focal -> local -> vocal
+slate -> marry -> aping -> cocoa -> vodka
+slate -> price -> fudge -> vogue
+slate -> price -> juice -> voice
+slate -> canal -> villa -> voila
+slate -> tight -> print -> vomit
+slate -> tenet -> otter -> voter
+slate -> crony -> pouch -> vouch
+slate -> level -> vowel
+slate -> crony -> dying -> vying
+slate -> marry -> candy -> wacky
+slate -> racer -> gayer -> baker -> paper -> wafer
+slate -> racer -> gayer -> eager -> wager
+slate -> marry -> canon -> wagon
+slate -> angst -> waist
+slate -> mauve -> naive -> waive
+slate -> waltz
+slate -> catty -> party -> warty
+slate -> baste -> caste -> haste -> paste -> taste -> waste
+slate -> taunt -> patch -> batch -> catch -> hatch -> match -> watch
+slate -> cater -> eater -> hater -> water
+slate -> racer -> gayer -> baker -> paper -> wafer -> waver
+slate -> racer -> haven -> oaken -> waxen
+slate -> beady -> heavy -> weary
+slate -> grave -> heave -> weave
+slate -> price -> fudge -> hedge -> wedge
+slate -> fever -> beech -> needy -> weedy
+slate -> fever -> beech -> neigh -> weigh
+slate -> fever -> merry -> weird
+slate -> level -> belly -> felon -> helix -> welch
+slate -> loser -> welsh
+slate -> fever -> beech -> wench
+slate -> crack -> aback -> knack -> quack -> whack
+slate -> leave -> whale
+slate -> crack -> award -> wharf
+slate -> cater -> wheat
+slate -> level -> bowel -> wheel
+slate -> level -> wield -> whelp
+slate -> price -> gorge -> rhyme -> where
+slate -> crony -> pubic -> which
+slate -> crony -> humid -> whiff
+slate -> belle -> while
+slate -> price -> ovine -> whine
+slate -> crony -> bunny -> whiny
+slate -> golly -> lurid -> whirl
+slate -> missy -> brisk -> whisk
+slate -> write -> white
+slate -> belle -> while -> whole
+slate -> crony -> ovoid -> whoop
+slate -> noose -> chose -> whose
+slate -> fever -> honey -> kneed -> widen
+slate -> fever -> cider -> rider -> wider
+slate -> crony -> buxom -> widow
+slate -> birth -> fifth -> ninth -> width
+slate -> level -> wield
+slate -> tight -> fight -> might -> night -> right -> wight
+slate -> golly -> billy -> dilly -> filly -> hilly -> willy
+slate -> crony -> dumpy -> wimpy
+slate -> price -> mince -> wince
+slate -> crony -> punch -> finch -> winch
+slate -> crony -> kinky -> dingy -> windy
+slate -> riser -> miser -> wiser
+slate -> missy -> fishy -> risky -> wispy
+slate -> tight -> ditch -> hitch -> pitch -> witch
+slate -> birth -> ditty -> kitty -> witty
+slate -> fever -> honey -> woken
+slate -> marry -> woman
+slate -> fever -> honey -> woken -> women
+slate -> crony -> goody -> moody -> woody
+slate -> fever -> cider -> power -> wooer
+slate -> golly -> coyly -> lowly -> wooly
+slate -> crony -> goody -> boozy -> woozy
+slate -> crony -> wordy
+slate -> golly -> would -> world
+slate -> crony -> wordy -> worry
+slate -> noose -> horse -> worse
+slate -> foist -> boost -> joust -> worst
+slate -> birth -> forth -> north -> worth
+slate -> golly -> would
+slate -> crony -> bound -> found -> hound -> mound -> pound -> wound
+slate -> fever -> coven -> woven
+slate -> crack -> wrack
+slate -> wrath
+slate -> racer -> break -> freak -> wreak
+slate -> fever -> credo -> wreck
+slate -> beset -> crest -> wrest
+slate -> crony -> bring -> wring
+slate -> foist -> twist -> wrist
+slate -> write
+slate -> crony -> prong -> wrong
+slate -> write -> wrote
+slate -> crony -> bring -> wrung
+slate -> golly -> dryly -> wryly
+slate -> taunt -> carat -> yacht
+slate -> beady -> yearn
+slate -> beast -> feast -> yeast
+slate -> level -> wield -> field -> yield
+slate -> crony -> young
+slate -> birth -> mouth -> youth
+slate -> racer -> break -> zebra
+slate -> testy -> zesty
+slate -> canal -> final -> zonal
