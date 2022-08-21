@@ -1,4 +1,5 @@
 import time
+import pdb
 import pandas as pd
 
 # global variables
@@ -21,26 +22,26 @@ def num_intersect(word_1, word_2) -> int:
     return sum([word_1[i] == word_2[i] for i in range(5)])
 
 
-def get_char_freq_df(list_of_words: list[str]):
-    c = {}
-    for i in range(5):
-        c[i+1] = [len([word for word in list_of_words if (word[i] == char)])
-                  for char in alphabet]
-    char_freq = pd.DataFrame(c, index=alphabet)/2315
-    return char_freq
-
-
 def get_char_freq(char_freq_df, word: str) -> float:
-    return sum([char_freq_df[i+1][word[i]] for i in range(5)])
+    return sum([char_freq_df[i][word[i]] for i in range(5)])
 
 
 class WordList:
     def __init__(self, list_of_words: list[str]):
         self.list_of_words = list_of_words
 
+    def get_char_freq_df(self):
+        c = {}
+
+        for i in range(5):
+            c[i] = [len([word for word in self.list_of_words if word[i] == char])
+                    for char in alphabet]
+        char_freq = pd.DataFrame(c, index=alphabet)/2315
+        return char_freq
+
     def rank_guesses(self, scheme: str, j: int = 0):
         w = {}
-        char_freq_df = get_char_freq_df(self.list_of_words)
+        char_freq_df = self.get_char_freq_df()
         for word in self.list_of_words:
             if scheme == 'word_intersects':
                 w[word] = 0
@@ -63,11 +64,11 @@ class WordList:
 
         W = pd.Series(w, index=self.list_of_words).sort_values(
             ascending=False).astype('float64')
-        return (W.index[j], W[j])
+        return (W.index[j], W[j], W)
 
     def feature_df(self):
         w = {}
-        char_freq_df = get_char_freq_df(self.list_of_words)
+        char_freq_df = self.get_char_freq_df()
         for word in self.list_of_words:
             i, n, cf = 0, 0, get_char_freq(char_freq_df, word)
             for other_word in self.list_of_words:
@@ -93,7 +94,7 @@ class Wordle:
             return 'incorrect'
 
     def get_hint(self, guess: str, solution: str) -> list:
-        correct, switches, incorrect = {}, {}, set()
+        correct, switches, incorrect_chars = {}, {}, set()
         for i in range(5):
             char = guess[i]
             result = self.char_eval(char, solution, i)
@@ -102,9 +103,9 @@ class Wordle:
             elif result == 'switch':
                 switches[i] = char
             elif result == 'incorrect':
-                incorrect = incorrect.union(char)
+                incorrect_chars = incorrect_chars.union(char)
 
-        return (correct, switches, incorrect)
+        return (correct, switches, incorrect_chars)
 
     def criteria_check(self, word: str, hint: list, incorrect_chars: set, incorrect_words: set) -> bool:
         correct, switches, incorrect = hint[0], hint[1], hint[2]
@@ -126,11 +127,12 @@ class Wordle:
                 return False
         return True
 
-    def new_guess(self, score: list, word_list: WordList, incorrect_chars: set, incorrect_words: set, scheme: str, j=0) -> list:
+    def new_guess(self, score: list, word_list: WordList, incorrect_chars: set, incorrect_words: set, scheme: str = 'char_intersects', j=0) -> list:
         L = [word for word in word_list.list_of_words if self.criteria_check(
             word, score, incorrect_chars, incorrect_words)]
         word_sublist = WordList(L)
-        return (word_sublist.rank_guesses(scheme, j), incorrect_chars, word_sublist)
+        W = word_sublist.rank_guesses(scheme, j)
+        return (W, incorrect_chars, word_sublist, W[2])
 
     def simulate(self, guess: str, solution: str, scheme: str, show_guess_path: bool = True) -> int:
         incorrect_chars = set()
