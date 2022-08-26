@@ -1,5 +1,4 @@
 import time
-import pdb
 import pandas as pd
 
 # global variables
@@ -30,13 +29,34 @@ class WordList:
     def __init__(self, list_of_words: list[str]):
         self.list_of_words = list_of_words
 
+    def get_hint_string(self, guess: str, solution: str) -> list:
+        s = ''
+        for i in range(5):
+            if guess[i] == solution[i]:
+                s += 'c'
+            elif guess[i] in solution:
+                s += 's'
+            else:
+                s += 'w'
+        return s
+
+    def get_hint_freq(self, guess: str):
+        d = {}
+        for word in self.list_of_words:
+            hint_string = self.get_hint_string(guess, word)
+            if hint_string in d.keys():
+                d[hint_string] += 1
+            else:
+                d[hint_string] = 1
+        return pd.Series(d).sort_values(ascending=False)
+
     def get_char_freq_df(self):
         c = {}
 
         for i in range(5):
             c[i] = [len([word for word in self.list_of_words if word[i] == char])
                     for char in alphabet]
-        char_freq = pd.DataFrame(c, index=alphabet)/2315
+        char_freq = pd.DataFrame(c, index=alphabet)
         return char_freq
 
     def rank_guesses(self, scheme: str, j: int = 0):
@@ -64,7 +84,7 @@ class WordList:
 
         W = pd.Series(w, index=self.list_of_words).sort_values(
             ascending=False).astype('float64')
-        return (W.index[j], W[j], W)
+        return W
 
     def feature_df(self):
         w = {}
@@ -85,27 +105,31 @@ class Wordle:
     def __init__(self, answer_pool: WordList):
         self.answer_pool = answer_pool
 
-    def char_eval(self, char: str, solution: str, position: int) -> str:
-        if char == solution[position]:
-            return 'correct'
-        elif char in set(solution):
-            return 'switch'
-        else:
-            return 'incorrect'
+    def hint_string(self, guess: str, solution: str) -> list:
+        s = ''
+        for i in range(5):
+            if guess[i] == solution[i]:
+                s += 'c'
+            elif guess[i] in solution:
+                s += 's'
+            else:
+                s += 'w'
+        return s
 
     def get_hint(self, guess: str, solution: str) -> list:
         correct, switches, incorrect_chars = {}, {}, set()
+        hint_str = self.hint_string(guess, solution)
         for i in range(5):
             char = guess[i]
-            result = self.char_eval(char, solution, i)
-            if result == 'correct':
+            result = hint_str[i]
+            if result == 'c':
                 correct[i] = char
-            elif result == 'switch':
+            elif result == 's':
                 switches[i] = char
-            elif result == 'incorrect':
+            elif result == 'w':
                 incorrect_chars = incorrect_chars.union(char)
 
-        return (correct, switches, incorrect_chars)
+        return (correct, switches, incorrect_chars, hint_str)
 
     def criteria_check(self, word: str, hint: list, incorrect_chars: set, incorrect_words: set) -> bool:
         correct, switches, incorrect = hint[0], hint[1], hint[2]
@@ -132,7 +156,7 @@ class Wordle:
             word, score, incorrect_chars, incorrect_words)]
         word_sublist = WordList(L)
         W = word_sublist.rank_guesses(scheme, j)
-        return (W, incorrect_chars, word_sublist, W[2])
+        return (W, incorrect_chars, word_sublist)
 
     def simulate(self, guess: str, solution: str, scheme: str, show_guess_path: bool = True) -> int:
         incorrect_chars = set()
@@ -140,6 +164,7 @@ class Wordle:
         num_guesses = 1
         word_sublist = self.answer_pool
         s = guess
+
         while guess != solution:
             incorrect_words = incorrect_words.union([guess])
             score = self.get_hint(guess, solution)
@@ -147,13 +172,13 @@ class Wordle:
 
             guess_data = self.new_guess(
                 score, word_sublist, incorrect_chars, incorrect_words, scheme, j=0)
-            next_guess = guess_data[0][0]
+            next_guess = guess_data[0].index[0]
 
             if (guess == next_guess and next_guess != self.solution):
                 tries += 1
                 guess_data = self.new_guess(
                     score, word_sublist, incorrect_chars, incorrect_words, scheme, tries)
-                next_guess = guess_data[0][0]
+                next_guess = guess_data[0].index[0]
                 word_sublist = guess_data[2]
             else:
                 tries = 0
@@ -161,8 +186,10 @@ class Wordle:
                 word_sublist = guess_data[2]
             num_guesses += 1
             s = s + ' -> '+guess
+
         if show_guess_path == True:
             print(s)
+
         return num_guesses
 
     def full_simulation(self, guess: str, scheme: str, show_guess_path: bool = True):
