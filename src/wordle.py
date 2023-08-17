@@ -1,6 +1,8 @@
 """This module defines the GuessScorer, WordleSolver, and WordleSimulator classes"""
 from time import time
+
 import pandas as pd
+from scipy.stats import hmean
 
 # global variables
 ALPHABET = [
@@ -113,6 +115,32 @@ class WordleSolver:
         self.incorrect_chars = set()
         self.incorrect_words = set()
 
+    def __repr__(self) -> str:
+        return f"""
+        initial_guess: {self.initial_guess}
+        -------------
+        weights: {self.weights}
+        """
+
+    def __eq__(self, other):
+        if isinstance(other, WordleSolver):
+            return (
+                self.initial_guess == other.initial_guess
+                and self.weights == other.weights
+            )
+        return False
+
+    def __ne__(self, other):
+        if isinstance(other, WordleSolver):
+            return (
+                self.initial_guess != other.initial_guess
+                or self.weights != other.weights
+            )
+        return False
+
+    def __hash__(self):
+        return hash((self.initial_guess, frozenset(self.weights.items())))
+
     def get_char_freq(self, list_of_words: list[str]):
         """Given a list of 5 letter words, produces a dataframe with the alphabet as an index,
         and values being the count of how often each letter appeared in a word from the list in
@@ -223,17 +251,27 @@ class WordleSimulator:
 
         return num_guesses, guess_path
 
-    def full_simulation(self, initial_guess: str, weights: dict):
+    def partial_simulation(self, solver: WordleSolver, answer_subpool: list[str]):
+        performance = {}
+        for solution in answer_subpool:
+            solver.incorrect_chars = set()
+            solver.incorrect_words = set()
+            performance[solution] = self.simulate(solution, solver)[0]
+        p = pd.Series(performance)
+        return p
+
+    def full_simulation(self, solver: WordleSolver):
         performance = {}
         tic = time()
         for solution in ANSWER_POOL:
-            solver = WordleSolver(initial_guess, weights)
+            solver.incorrect_chars = set()
+            solver.incorrect_words = set()
             performance[solution] = self.simulate(solution, solver)[0]
         toc = time()
         p = pd.Series(performance)
 
         print("simulation time: ", toc - tic)
-        print("mean guesses: ", p.mean())
+        print("solver score: ", hmean(p.value_counts()))
         print("hardest word: ", p.index[p.argmax()])
         print("success rate: ", len(p[p <= 6]) * 100 / len(p))
         print("failure rate: ", len(p[p > 6]) * 100 / len(p))
