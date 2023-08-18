@@ -36,7 +36,7 @@ Here is the guess distribution for 'slate':
 
 ### Usage
 
-You can call these functions in a Jupyter notebook. With an .ipynb in the same directory as wordle_solver.py, you can import these tools via:
+You can call these functions in a Jupyter notebook. With an .ipynb in the root directory, you can import and run these tools via:
 ```
 from src.wordle import (
     WordleSimulator,
