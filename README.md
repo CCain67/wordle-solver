@@ -14,7 +14,7 @@ The word 'slate' corresponds to the red 'x' in the above plot. It has the highes
 ### Performance
 This performs surprisingly well. Here are some statistics:
 
-| Left columns    |    Right columns    |
+| Statistic       |        Value        |
 | --------------- | :-----------------: |
 | initial guess   |       'slate'       |
 | average guesses |        3.686        |
@@ -38,26 +38,86 @@ Here is the guess distribution for 'slate':
 
 You can call these functions in a Jupyter notebook. With an .ipynb in the same directory as wordle_solver.py, you can import these tools via:
 ```
-from wordle_solver import *
-words = WordList(wordle_small)
-wordle = Wordle(answer_pool=words)
+from src.wordle import (
+    WordleSimulator,
+    WordleSolver
+)
+
+solver = WordleSolver()
+simulator = WordleSimulator()
+simulator.full_simulation(solver)
 ```
-Here, wordle_small is the small answer pool, containing 2315 words. There is also wordle_big, which contains about 13,000 words. You can get the guess path for a given initial guess and solution via the method:
+This returns the `DataFrame` containing information which can be aggregated to the above statistics.
+
+### Evolve.py
+
+I also created an evolutionary algorithm to try to improve the average number of guesses. The idea is to assign a weight to each letter to adjust how much it is considered when ranking guesses. This produced some minor improvements to the solver. The evolutionary algorithm can be run via:
 ```
-wordle.simulate(initial_guess='slate', 
-                solution='joker', 
-                scheme='char_intersects', 
-                show_guess_path=True)
+from src.evolve import (
+    EpochHandler,
+    Population
+)
+
+evo = EpochHandler()
+evo.run_epochs(
+    number_of_epochs=50, 
+    cutoff_number=10, 
+    population=Population.from_random(30, 'slate'), 
+    answer_pool=ANSWER_POOL
+)
 ```
-which outputs:
+
+The (current) "apex" solver has the following weights/genes:
+
 ```
-slate -> fever -> cider -> power -> boxer -> goner -> homer -> joker
-8
+{
+    "a": 0.4016349200033334,
+    "b": 0.44700069379062907,
+    "c": 0.40306313012870937,
+    "d": 0.8183019621306092,
+    "e": 0.42344463146318084,
+    "f": 0.5992886805643407,
+    "g": 0.3779176240058469,
+    "h": 0.527528683952443,
+    "i": 0.6719525536780588,
+    "j": 0.45105890801936543,
+    "k": 0.45304930033789537,
+    "l": 0.4101471991728201,
+    "m": 0.6803555497284274,
+    "n": 0.6942476449667149,
+    "o": 0.3333891652172295,
+    "p": 0.6419996088905393,
+    "q": 0.2986341476877176,
+    "r": 0.5571286378354326,
+    "s": 0.44159906213412126,
+    "t": 0.35670928435601407,
+    "u": 0.419899287904584,
+    "v": 0.6067549621986005,
+    "w": 0.5202499412533375,
+    "x": 0.40336629220874815,
+    "y": 0.5413363063221512,
+    "z": 0.4837416835960076,
+}
 ```
-The 'scheme' is the parameter which determines how potential guesses are ranked. As mentioned above, the main and most effective choice is via letter intersections with other words in the active answer pool. To simulate an initial guess against the entire answer pool, call:
-```
-wordle.full_simulation(initial_guess='slate', 
-                       scheme='char_intersects', 
-                       show_guess_path=False)
-```
-This generates the statistics above. 
+which can be passed to the `weights` parameter when instantiating a solver. This particular solver has the following stats:
+
+| Statistic       |        Value        |
+| --------------- | :-----------------: |
+| initial guess   |       'slate'       |
+| average guesses |        3.662        |
+| hardest word    | 'boxer' (9 guesses) |
+| win rate        |       99.43%        |
+
+| No. Guesses | Occurences |
+| ----------- | :--------: |
+| 1           |     1      |
+| 2           |    146     |
+| 3           |    899     |
+| 4           |    941     |
+| 5           |    261     |
+| 6           |     54     |
+| 7           |     10     |
+| 8           |     2      |
+| 9           |     1      |
+
+Very minor improvement. Overall this new solver improved on 572 words, and got worse on 501 words.

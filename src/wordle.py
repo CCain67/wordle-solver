@@ -253,28 +253,20 @@ class WordleSimulator:
 
     def partial_simulation(self, solver: WordleSolver, answer_subpool: list[str]):
         performance = {}
+
         for solution in answer_subpool:
             solver.incorrect_chars = set()
             solver.incorrect_words = set()
             performance[solution] = self.simulate(solution, solver)[0]
-        p = pd.Series(performance)
-        return p
+
+        return pd.Series(performance)
 
     def full_simulation(self, solver: WordleSolver):
         performance = {}
-        tic = time()
+
         for solution in ANSWER_POOL:
             solver.incorrect_chars = set()
             solver.incorrect_words = set()
             performance[solution] = self.simulate(solution, solver)[0]
-        toc = time()
-        p = pd.Series(performance)
 
-        print("simulation time: ", toc - tic)
-        print("solver score: ", hmean(p.value_counts()))
-        print("hardest word: ", p.index[p.argmax()])
-        print("success rate: ", len(p[p <= 6]) * 100 / len(p))
-        print("failure rate: ", len(p[p > 6]) * 100 / len(p))
-        print("three or less: ", len(p[p <= 3]) * 100 / len(p))
-        print("only 2 guesses: ", len(p[p == 2]))
-        return p
+        return pd.Series(performance)
